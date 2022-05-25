@@ -1,5 +1,5 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: apply-service-standard.education.gov.uk
+# host: apply-service-standard.education.gov.uk
 
 # Header-related options
 show_govuk_logo: false

@@ -1,0 +1,33 @@
+@import "govuk_tech_docs";
+
+@import "govuk_tech_docs";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+*{font-family: 'Inter', sans-serif !important;}
+.govuk-header{background-color: #003a69;}
+.govuk-header__container {
+    position: relative;
+    margin-bottom: -10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 10px solid #1d70b8;
+}
+
+footer{
+display: none;
+}
+
+.technical-documentation{max-width: 50em !important;}
+.govuk-header__product-name{line-height: 2.5rem !important; font-size: 1.2rem;}
+
+.govuk-header__product-name::before{content: "Department for Education | "; 
+    font-weight: 600; 
+    background-image: 
+    url("/images/crest.png") !important; 
+    padding: 8px 0px 10px 55px;
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -5px;}

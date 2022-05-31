@@ -4,13 +4,12 @@
 # Header-related options
 show_govuk_logo: false
 service_name: Apply the Service Standard in DfE
-service_link: https://apply-service-standard.education.gov.uk
+service_link: /service-standard/
 phase: ALPHA
 
 # Links to show on right-hand-side of header
 header_links:
-  About: https://apply-service-standard.education.gov.uk/about
-  Documentation: /
+  About: /about.html
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
@@ -27,7 +26,7 @@ collapsible_nav: true
 # Table of contents depth – how many levels to include in the table of contents.
 # If your ToC is too long, reduce this number and we'll only show higher-level
 # headings.
-max_toc_heading_level: 2
+max_toc_heading_level: 1
 
 # Prevent robots from indexing (e.g. whilst in development)
 prevent_indexing: true

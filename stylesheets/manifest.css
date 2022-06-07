@@ -3936,5 +3936,125 @@ footer {
 .dfeuk-action-link__link .dfeuk-icon__arrow-right-circle--up {
   transform: rotate(-90deg); }
 
+/* ==========================================================================
+   COMPONENTS / #DO-DONT-LIST
+   ========================================================================== */
+/**
+ * Do and Don't lists help users understand more easily what they should
+ * and shouldn't do.
+ *
+ * 1. Uses @mixin panel-with-label from tools/_mixins.
+ * 2. Uses @mixin heading-label from tools/_mixins.
+ */
+.dfeuk-do-dont-list {
+  margin-bottom: 40px;
+  margin-top: 80px;
+  padding: 24px;
+  background-color: #ffffff;
+  color: #0b0c0c;
+  border: 10px solid #003a69;
+  padding-top: 0 !important;
+  /* stylelint-disable-line declaration-no-important */
+  /* [1] */ }
+
+.dfeuk-do-dont-list > *:first-child {
+  margin-top: 0; }
+
+.dfeuk-do-dont-list > *:last-child {
+  margin-bottom: 0; }
+
+@media (min-width: 40.0625em) {
+  .dfeuk-do-dont-list {
+    margin-bottom: 48px; } }
+
+@media (min-width: 40.0625em) {
+  .dfeuk-do-dont-list {
+    margin-top: 88px; } }
+
+@media (min-width: 40.0625em) {
+  .dfeuk-do-dont-list {
+    padding: 32px; } }
+
+@media print {
+  .dfeuk-do-dont-list {
+    border: 1px solid #0b0c0c;
+    page-break-inside: avoid; } }
+
+.dfeuk-do-dont-list p:first-of-type, .dfeuk-do-dont-list ul:first-of-type {
+  margin-top: -20px; }
+
+.dfeuk-do-dont-list p + ul:first-of-type {
+  margin-top: 20px; }
+
+.dfeuk-do-dont-list__label {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  background-color: #003a69;
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 0 8px -42px;
+  padding: 8px 32px;
+  position: relative;
+  top: -48px;
+  /* [2] */ }
+
+@media (min-width: 40.0625em) {
+  .dfeuk-do-dont-list__label {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.33333; } }
+
+@media print {
+  .dfeuk-do-dont-list__label {
+    font-size: 18pt;
+    line-height: 1.15; } }
+
+@media (max-width: 40.0525em) {
+  .dfeuk-do-dont-list__label {
+    margin-left: -25px;
+    margin-right: 0;
+    padding: 8px 24px;
+    top: -8px; } }
+
+@media print {
+  .dfeuk-do-dont-list__label {
+    background: none;
+    color: #0b0c0c;
+    top: 0; } }
+
+@media print {
+  .dfeuk-do-dont-list__label {
+    color: #0b0c0c;
+    fill: #0b0c0c; }
+  .dfeuk-do-dont-list__label:active, .dfeuk-do-dont-list__label:focus, .dfeuk-do-dont-list__label:visited {
+    color: #0b0c0c; } }
+
+.dfeuk-list--tick,
+.dfeuk-list--cross {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 40px;
+  /* [2] */
+  position: relative; }
+
+.dfeuk-list--tick svg,
+.dfeuk-list--cross svg {
+  left: -4px;
+  /* [3] */
+  margin-top: -5px;
+  /* [3] */
+  position: absolute; }
+
+ol > li, ul > li, .dfeuk-list > li {
+  margin-bottom: 8px; }
+
+@media (min-width: 40.0625em) {
+  ol > li, ul > li, .dfeuk-list > li {
+    margin-bottom: 8px; } }
+
+ol > li:last-child, ul > li:last-child, .dfeuk-list > li:last-child {
+  margin-bottom: 0; }
+
 
 

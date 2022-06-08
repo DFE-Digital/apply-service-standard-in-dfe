@@ -74,8 +74,8 @@ git push origin accessibility-content
 You should see something like:
 
 ``` 
-remote: Create a pull request for 'my-improvements' on GitHub by visiting: 
-remote:  https://github.com/your_username/project_name_here/pull/new/my-improvements 
+remote: Create a pull request for 'accessibility-content' on GitHub by visiting: 
+remote:  https://github.com/your_username/project_name_here/pull/new/accessibility-content 
 ```
 
 Copy or click the URL and complete the pull request for the change on GitHub. 

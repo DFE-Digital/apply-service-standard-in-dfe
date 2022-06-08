@@ -3583,7 +3583,7 @@ h5,
 h6,
 a,
 span,
-div {
+div, table, th, td, tr {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important; }
 
 img {
@@ -3641,8 +3641,7 @@ footer {
   margin-top: 40px !important;
   border: 1px solid #b1b4b6;
   background: #fafaf9;
-  padding: 40px;
-  border-radius: 5px; }
+  padding: 40px; }
 
 .DosAndDontsstyled__SectionStyled {
   display: flex;
@@ -3654,7 +3653,6 @@ footer {
 .DosAndDontsstyled__DosAndDontsColoredBoxStyled {
   flex-direction: column;
   padding: 40px;
-  border-radius: 5px;
   position: relative;
   box-sizing: border-box;
   align-items: center;
@@ -3702,7 +3700,6 @@ footer {
 
 .DosAndDontsstyled__DosAndDontsContainerStyled .govuk-tag {
   padding-bottom: 8px;
-  border-radius: 5px;
   text-transform: capitalize; }
 
 @media (min-device-width: 320px) {
@@ -3799,12 +3796,10 @@ footer {
   left: 0; }
 
 .dfe-panel {
-  margin-bottom: 15px !important;
-  margin-top: 40px !important;
+  margin-top: 30px !important;
   border: 1px solid #b1b4b6;
   background: #fafaf9;
-  padding: 5px 25px;
-  border-radius: 5px; }
+  padding: 5px 25px; }
   .dfe-panel p {
     margin-bottom: 10px; }
   .dfe-panel a {
@@ -4046,14 +4041,14 @@ footer {
   /* [3] */
   position: absolute; }
 
-ol > li, ul > li, .dfeuk-list > li {
+.dfeuk-list > li {
   margin-bottom: 8px; }
 
 @media (min-width: 40.0625em) {
-  ol > li, ul > li, .dfeuk-list > li {
+  .dfeuk-list > li {
     margin-bottom: 8px; } }
 
-ol > li:last-child, ul > li:last-child, .dfeuk-list > li:last-child {
+.dfeuk-list > li:last-child {
   margin-bottom: 0; }
 
 /* ==========================================================================
@@ -4245,8 +4240,7 @@ ol > li:last-child, ul > li:last-child, .dfeuk-list > li:last-child {
    #EXAMPLE-CALLOUT
    ========================================================================== */
 .dfeuk-example-callout {
-  margin-bottom: 24px;
-  margin-top: 8px;
+  margin: 30px 0px;
   padding-bottom: 24px;
   padding-left: 24px;
   padding-right: 24px;
@@ -4262,11 +4256,11 @@ ol > li:last-child, ul > li:last-child, .dfeuk-list > li:last-child {
 
 @media (min-width: 40.0625em) {
   .dfeuk-example-callout {
-    margin-bottom: 32px; } }
+    margin-bottom: 40px; } }
 
 @media (min-width: 40.0625em) {
   .dfeuk-example-callout {
-    margin-top: 16px; } }
+    margin-top: 40px; } }
 
 @media (min-width: 40.0625em) {
   .dfeuk-example-callout {
@@ -4282,7 +4276,7 @@ ol > li:last-child, ul > li:last-child, .dfeuk-list > li:last-child {
 
 @media (min-width: 40.0625em) {
   .dfeuk-example-callout {
-    padding-top: 48px; } }
+    padding-top: 38px; } }
 
 .dfeuk-example-callout__heading {
   background: #00345f;
@@ -4295,19 +4289,33 @@ ol > li:last-child, ul > li:last-child, .dfeuk-list > li:last-child {
 .dfeuk-example-callout--white {
   background: #ffffff; }
 
-.dfeuk-example-callout--image {
-  margin-bottom: 16px; }
-
-@media (min-width: 40.0625em) {
-  .dfeuk-example-callout--image {
-    margin-bottom: 24px; } }
-
 .dfeuk-example-callout--image + h3 {
   padding-top: 16px; }
 
 @media (min-width: 40.0625em) {
   .dfeuk-example-callout--image + h3 {
     padding-top: 24px; } }
+
+.govuk-table__caption {
+  text-align: left;
+  font-weight: 700; }
+
+.technical-documentation th, .technical-documentation td {
+  padding: 10px 20px 10px 0;
+  background-color: transparent;
+  border-bottom: 1px solid #b1b4b6;
+  border-width: 0 0 1px 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  vertical-align: top;
+  text-align: left;
+  font-size: 1.1875rem;
+  line-height: 1.3157894737; }
+
+.technical-documentation th.govuk-table__header {
+  font-weight: 600; }
 
 
 

@@ -10,6 +10,10 @@ To run this service on your machine, you need:
 - [Ruby][install-ruby] (2.7.2 version)
 - [Middleman][install-middleman]
 
+## Contributing
+
+Make sure you read the [Contributing guidance](https://github.com/DFE-Digital/apply-service-standard-in-dfe/blob/main/.github/CONTRIBUTING.md) before making any changes.
+
 ## Making changes
 
 To make changes to the documentation for the Tech Docs Template website, edit files in the `source` folder of this repository.

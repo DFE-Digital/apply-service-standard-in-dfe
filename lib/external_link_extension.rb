@@ -5,9 +5,7 @@ class ExternalLink < Middleman::Extension
 
   helpers do
     def external_link(url, text)
-      <<~EOS
-      <a href='#{url}' rel='noopner noreferrer' target='_blank'>#{text}</a>
-      EOS
+      "<a href='#{url}' rel='noopner noreferrer' target='_blank'>#{text}</a>"
     end
   end
 end

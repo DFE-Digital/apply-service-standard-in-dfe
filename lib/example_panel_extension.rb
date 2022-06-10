@@ -5,13 +5,14 @@ class ExamplePanel < Middleman::Extension
   
     helpers do
       def example_panel(title, content)
-
-        "<div class='dfeuk-example-callout'>
+        <<~EOS
+        <div class='dfeuk-example-callout'>
         <h3 class='dfeuk-tag dfeuk-example-callout__heading'>
         <span role='text'>
        <span class='dfeuk-u-visually-hidden'>Important: </span>#{title}</span></h3>
         <p>#{content}</p>
-        </div>\n"
+        </div>
+        EOS
       
       end
     end

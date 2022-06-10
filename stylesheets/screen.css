@@ -4316,3 +4316,52 @@ footer {
 
 .technical-documentation th.govuk-table__header {
   font-weight: 600; }
+
+ol.dfe-standards-list {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-left: 0;
+  list-style-type: none; }
+
+.app-service-standard-point {
+  border-top: 1px solid #b1b4b6;
+  margin-top: 25px;
+  padding-top: 25px; }
+
+.app-service-standard-point:first-child {
+  margin-top: 0; }
+
+.app-service-standard-point__title {
+  margin-left: 30px; }
+
+@media (min-width: 40.0625em) {
+  .app-service-standard-point__title {
+    margin-left: 50px; } }
+
+.app-service-standard-point__number {
+  float: left;
+  margin-left: -30px; }
+
+@media (min-width: 40.0625em) {
+  .app-service-standard-point__number {
+    margin-left: -50px; } }
+
+.app-service-standard-point__details {
+  margin-bottom: 10px;
+  margin-left: 30px; }
+
+@media (min-width: 40.0625em) {
+  .app-service-standard-point__details {
+    margin-left: 50px; } }
+
+.app-service-standard-point__link {
+  margin-top: 10px; }
+
+@media (min-width: 40.0625em) {
+  .app-sticky-element {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; } }
+
+.app-body, .app-body-s {
+  line-height: 1.45; }

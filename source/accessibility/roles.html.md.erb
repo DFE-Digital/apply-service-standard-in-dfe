@@ -27,7 +27,7 @@ A service owner is accountable for the quality of their service. This includes a
 
 ## Delivery manager
 
-A delivery manager is accountable for the delivery of complex products and services that are being delivered by multiple teams or have high technical or political risk
+A delivery manager is accountable for the delivery of complex products and services that are being delivered by multiple teams or have high technical or political risk.
 
 - remove blockers and manage risks, commercials, budgets and people in relation to accessibility
 - balance objectives and can redeploy people and resources as priorities change, including people with accessibility skills and experience
@@ -36,17 +36,69 @@ A delivery manager is accountable for the delivery of complex products and servi
 
 ## Product manager
 
+Accessibility shouldn't be a blocker in the delivery process. A product manager should be ensuring that the prodct you are building meets the required accessibility standards. This includes your Minimum Viable Product (MVP). You can’t go live and implement accessibility at a later date.
+
+- when planning, include time for acessibility testing time (automated and manual)
+- update the accessibility statement where necessary as part of releases
+
+Product managers need to understand the risks of building a service which is not accessible.
+
+If the service is not accessible, then you won’t be able to pass a Beta assessment. If you put a service live and it is non-compliant, the service can be reported to the <%= external_link("https://equalityhumanrights.com/en","Equality and Human Rights Commission")%>.
+
+As the enforcement body the Equality and Human Rights commission has the power to issue enforcement notices, do investigations and even take court action against the department.
+
 ## User researcher
+
+User researchers will help the team to understand the needs of the people who use the service, including those users who might have impairments and use assistive technologies.
+
+Even before you have identified users in your own service, you can familiarise yourself with the <%= external_link("https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles", "GOV.UK user profiles")%> and how different impairments might affect people using the service.
+
+Researchers should:
+
+- test a service with a range of people with different abilities
+- share insights with the rest of the team about how users of assisitive technology use the service
+
+<%= signpost_link("https://drive.google.com/drive/u/0/folders/1N-kos9wCVFhDZDbasJc6wPcM2YsK8pp5", "More guidance for user researchers in DfE", true)%>
 
 ## Design
 
-Accessibility guidelines which apply to people working in the design of user interfaces and user interactions with a service.
+Accessibility guidelines which apply to people working in the design of content, user interfaces and interactions in services and websites.
 
-<%= signpost_link("https://design-in-dfe.education.gov.uk/", "Accessibility standards breakdown in the Design in DfE service", true)%>
+Working to defined standards ensure services the Department for Education (DfE) create are inclusive and accessible and can be used by all people.
+
+This includes removing risk by designing how things should work, this can be achieved by:
+
+- working with other designers, researchers and developers to build and test prototypes
+- following inclusive design principles
+- ensuring you meet component design criteria
+- contributing to the GOV.UK Design System backlog 
+- sharing your work with other designers across DfE
+- taking part in design crits, reviews and assessments to assure your designs are meeting these standards
+
+<%= signpost_link("https://design-in-dfe.education.gov.uk/", "Full guidance, information and standards in the Design in DfE manual", true)%>
 
 
 
 ## Developers and testers
+
+Developers need to work closely with interaction designers and content designers to make sure things like hover states, error messages and hidden text are considered.
+
+Testers should be ensuring that accessibility testing is included to find obvious problems. 
+
+### Definition of done
+
+We can’t deploy code which is not accessible, otherwise we are breaking the law. So if it’s not accessible it’s not done. As part of your definition of done, the service should be checked for accessibility using both automated and manual tests.
+
+An example of accessibility considerations in a definition of done:
+
+- automated accessibility tests passing in the acceptance tests
+- manual accessibility tests passed using Accessibility Insights
+- manually checked usability using a screen reader
+- manually checked usability using a screen magnifier
+- manually checked usability using speech recognition
+- accessibility statement updated
+
+<%= signpost_link("https://technical-guidance.education.gov.uk/", "Additional guidance is avialble in the DfE Technical manual", true)%>
 
 ## Architects
 
@@ -56,61 +108,10 @@ That could be through technical designs they create or ensuring appropriate non-
 
 They also have a role in assuring a service is meeting accessibility standards, through internal technical assurance, for example, peer reviews, for a service assessment or managed service delivery reviews. 
 
+<%= signpost_link("https://dfe-digital.github.io/architecture/#dfe-architecture", "Additional guidance is avialble in the DfE Architecture manual", true)%>
+
+
 ## Performance analyst
 
+Performance analysts considerations will be around presenting statistical data so that they don’t exclude anybody that might not be able to perceive complex charts or tables of data.
 
-<div class="cards">
-<ul>
-<li class="card">
-    <div class="text">
-        <h2><a href="#card-link">A card</a></h2>
-        <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
-    </div>
-</li>
-<li class="card">
-    <div class="text">
-        <h2><a href="#card-link">A card</a></h2>
-        <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
-    </div>
-</li>
-<li class="card">
-    <div class="text">
-        <h2><a href="#card-link">A card</a></h2>
-        <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
-    </div>
-</li>
-<li class="card">
-    <div class="text">
-        <h2><a href="#card-link">A card</a></h2>
-        <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
-    </div>
-</li>
-<li class="card">
-    <div class="text">
-        <h2><a href="#card-link">A card</a></h2>
-        <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
-    </div>
-</li>
-<li class="card">
-    <div class="text">
-        <h2><a href="#card-link">A card</a></h2>
-        <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
-    </div>
-</li>
-</ul>
-</div>
-
-<script>
-const cards = document.querySelectorAll('.card');
-Array.prototype.forEach.call(cards, card => {
-    let down, up, link = card.querySelector('h2 a');
-    card.style.cursor = 'pointer';
-    card.onmousedown = () => down = +new Date();
-    card.onmouseup = () => {
-        up = +new Date();
-        if ((up - down) < 200) {
-            link.click();
-        }
-    }
-});
-</script>

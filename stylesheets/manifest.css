@@ -4514,5 +4514,10 @@ ol.dfe-standards-list {
   font-weight: 700;
   font-size: 1rem; }
 
+.technical-documentation blockquote {
+  background: #f3f2f1;
+  margin: 20px 0px 0px 0px;
+  padding: 10px 25px; }
+
 
 

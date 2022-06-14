@@ -1213,3 +1213,115 @@ ol.dfe-standards-list {
 }
 
 .technical-documentation blockquote {background: #f3f2f1; margin: 20px 0px 0px 0px; padding: 10px 25px }
+
+
+
+
+.timeline {
+    padding: calc(2 * #{5px});
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    .action_needed {
+        // background-color: #f3f2f1;
+        // padding: 5px 20px 5px 15px;
+        // box-shadow: 0 4px 0 0 #b1b4b6;
+        // border: 1px solid #b1b4b6;
+
+
+        border: 5px solid $dfe-blue;
+        padding: 5px 20px 5px 15px;
+        box-shadow: none;
+        margin-bottom: 30px;
+        display: block;
+        background: #fff;
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        &:before {
+
+            display: block;
+            width: calc(2 * 10px);
+            height: calc(2 * 10px);
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 4px solid $dfe-blue;
+            position: absolute;
+            z-index: 2;
+            left: -37px;
+            top: 2px;
+        }
+    }
+
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    ol {
+        list-style-type: none;
+        position: relative;
+        padding: 0 0 0 10px;
+        margin: 0 0 20px 0;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -4.5px;
+            bottom: 0;
+            border-left: 4px solid #b1b4b6;
+            height: 102%;
+        }
+
+        >li {
+            margin: 4px 0 20px 10px;
+            padding-left: 15px;
+            position: relative;
+            display: block;
+            border-bottom: 1px solid #DEE0E2;
+
+            &:last-child {
+                margin-bottom: 0px;
+                border-bottom: 0px;
+            }
+
+            .timeline-reference {
+                display: table;
+                position: relative;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    left: -20px;
+                    width: 20px;
+                    top: 9px;
+                    z-index: -1;
+                }
+            }
+
+            &:before {
+                content: "";
+                display: block;
+                width: calc(2 * 10px);
+                height: calc(2 * 10px);
+                border-radius: 50%;
+                background-color: #ffffff;
+                border: 4px solid #b1b4b6;
+                position: absolute;
+                z-index: 2;
+                left: -37px;
+                top: 2px;
+            }
+
+
+        }
+
+        ul li a {
+            text-decoration: underline;
+        }
+    }
+}

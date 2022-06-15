@@ -15,4 +15,6 @@ activate :example_panel
 activate :basic_panel
 activate :back_to_top
 
+config[:host] = "https://apply-the-service-standard.education.gov.uk"
+
 GovukTechDocs.configure(self)

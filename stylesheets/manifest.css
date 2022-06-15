@@ -3848,7 +3848,7 @@ footer {
 
 @media (min-width: 40.0625em) {
   .dfeuk-action-link {
-    margin-bottom: 40px; } }
+    margin-bottom: 20px; } }
 
 .dfeuk-action-link.dfeuk-action-link--back-to-top {
   margin-bottom: 16px; }
@@ -3856,6 +3856,9 @@ footer {
 @media (min-width: 40.0625em) {
   .dfeuk-action-link.dfeuk-action-link--back-to-top {
     margin-bottom: 24px; } }
+
+.dfeuk-action-link + .dfeuk-action-link {
+  margin-bottom: 20px; }
 
 .dfeuk-action-link__link {
   font-weight: 400;

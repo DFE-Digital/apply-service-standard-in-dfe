@@ -4,7 +4,7 @@
 # Header-related options
 show_govuk_logo: false
 service_name: Apply the Service Standard in DfE
-service_link: /service-standard/
+service_link: /
 phase: ALPHA
 
 # Links to show on right-hand-side of header

@@ -11,6 +11,7 @@ https://apply-the-service-standard.education.gov.uk/service-standard/5-make-sure
 https://apply-the-service-standard.education.gov.uk/service-standard/
 https://apply-the-service-standard.education.gov.uk/service-standard/2-solve-a-whole-problem.html
 https://apply-the-service-standard.education.gov.uk/sitemap.txt
+https://apply-the-service-standard.education.gov.uk/accessibility/as-compliant.html
 https://apply-the-service-standard.education.gov.uk/accessibility/roles.html
 https://apply-the-service-standard.education.gov.uk/accessibility/digital-inclusion.html
 https://apply-the-service-standard.education.gov.uk/accessibility/accessibility-audit.html

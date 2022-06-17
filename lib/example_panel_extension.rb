@@ -10,7 +10,7 @@ class ExamplePanel < Middleman::Extension
         <h3 class='dfeuk-tag dfeuk-example-callout__heading'>
         <span role='text'>
        <span class='dfeuk-u-visually-hidden'>Important: </span>#{title}</span></h3>
-        <p>#{content}</p>
+       #{content}
         </div>
         EOS
       

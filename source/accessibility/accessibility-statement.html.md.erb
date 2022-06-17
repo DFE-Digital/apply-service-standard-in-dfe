@@ -16,8 +16,9 @@ For mobile applications, the statement should be available on the website of the
 
 <%= warning_text("The accessibility statement contains mandatory and legally required wording.")%>
 
-Content in the square brackets should be replaced with your own wording appropriate for your wesbite or service. 
+You can [use the correct accessibility statement template](#example-accessibility-statements) for your service's level of compliance to ensure you're implementing the statement correctly and consistently.
 
+Content in the square brackets should be replaced with your own wording appropriate for your wesbite or service. 
 
 
 > ### Accessibility Statement
@@ -112,3 +113,13 @@ Content in the square brackets should be replaced with your own wording appropri
 > EASS - <%= external_link("https://www.equalityadvisoryservice.com/","https://www.equalityadvisoryservice.com/")%>
 > 
 > ECNI - <%= external_link("https://www.equalityni.org/Home","https://www.equalityni.org/Home/")%>
+
+## Example accessibility statements
+
+The following statements are designed to make it easier to implement the correct statement for your service, and it's level of compliance to WCAG 2.1 Level AA.
+
+<%= example_panel("Statement 1 - Fully compliant","<p>Use this statement only if all requirements of WCAG 2.1 AA are fully met without exceptions.</p><ul><li>HTML version</li><li>Markdown version</li></ul>")%>
+
+<%= example_panel("Statement 2 - Partially compliant","<p>Use this statement if most requirements of WCAG 2.1 AA are met, but with some exceptions. This means not yet fully compliant and that the necessary measures are to be taken in order to reach full compliance.</p> <ul><li>HTML version</li><li>Markdown version</li></ul>")%>
+
+<%= example_panel("Statement 3 - Not compliant","<p>Use this statement if most requirements of WCAG 2.1 AA are not met.</p> <ul><li>HTML version</li><li>Markdown version</li></ul>")%>

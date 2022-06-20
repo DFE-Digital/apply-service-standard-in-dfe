@@ -5,23 +5,25 @@ weight: 210
 
 # Roles and responsibilities
 
-Accessibility is not something that should happen at the end of the service delivery lifecycle. It must form part of every stage of the process and be the responsibility of everyone involved in the delivery of DfE services.
+Accessibility should be part of every stage of the service delivery lifecycle. It is the responsibility of everyone involved in the delivery of DfE services.
 
-There are different responsibilites for accessibility, depending of the role involved in the delivery of a service.
+Depending on your role, there are different responsibilites.
 
 ## Senior Responsible Officer
 
-The SRO carries overall accountability for the service, including accessibility and approves whether a service goes live or not so needs to either:
+The senior responsibile officer carries overall accountability for the service, including accessibility. They approve whether a service goes live or not so need to either:
 
-- seek assurance that the service is accessible and so is happy to proceed or
-- signs off on the risk that the service is not accessible and accepts responsibility for any legal challenges
+- seek assurance that the service is accessible and so is happy to proceed, or
+- sign off on the risk that the service is not accessible and accepts responsibility for any legal challenges
 
 ## Service owner
 
-A service owner is accountable for the quality of their service. This includes accessibility. They adopt a portfolio view, managing end-to-end services, which include multiple products and channels. Their role includes:
+A service owner is accountable for the quality of their service. This includes accessibility. They adopt a portfolio view, managing end-to-end services, which include multiple products and channels. 
 
-- making sure the necessary processes are followed
-- governance
+A service owner should:
+
+- make sure the necessary processes are followed
+- manage governance
 - own the budget and allocate funding to areas of the service 
 - ultimately be responsible for the successful operation and continuous improvement of the service
 
@@ -29,89 +31,93 @@ A service owner is accountable for the quality of their service. This includes a
 
 A delivery manager is accountable for the delivery of complex products and services that are being delivered by multiple teams or have high technical or political risk.
 
+A delivery manager should:
+
 - remove blockers and manage risks, commercials, budgets and people in relation to accessibility
-- balance objectives and can redeploy people and resources as priorities change, including people with accessibility skills and experience
-- be responsible for understanding, managing and communicating to complex stakeholder groups, balancing priorities
-- be the initial escalation point for the programme and must have an awareness of the bigger picture
+- balance objectives and redeploy people and resources as priorities change, including people with accessibility skills and experience
+- be responsible for understanding, managing and communicating to complex stakeholder groups, and balancing priorities
+- be the initial escalation point for the programme and having an awareness of the bigger picture
 
 ## Product manager
 
-Accessibility shouldn't be a blocker in the delivery process. A product manager should be ensuring that the prodct you are building meets the required accessibility standards. This includes your Minimum Viable Product (MVP). You can’t go live and implement accessibility at a later date.
+A product manager makes sure that the product you are building meets the required accessibility standards. This includes your Minimum Viable Product (MVP). A service cannot go live and implement accessibility at a later date.
 
-- when planning, include time for acessibility testing time (automated and manual)
+A product manager should:
+
+- include time for accessibility testing, both automated and manual, in service plans
 - update the accessibility statement where necessary as part of releases
 
 Product managers need to understand the risks of building a service which is not accessible.
 
-If the service is not accessible, then you won’t be able to pass a Beta assessment. If you put a service live and it is non-compliant, the service can be reported to the <%= external_link("https://equalityhumanrights.com/en","Equality and Human Rights Commission")%>.
+If the service is not accessible, then it won’t pass a Beta assessment. If you put a service live and it is non-compliant, the service can be reported to the <%= external_link("https://equalityhumanrights.com/en","Equality and Human Rights Commission")%>.
 
-As the enforcement body the Equality and Human Rights commission has the power to issue enforcement notices, do investigations and even take court action against the department.
+As the enforcement body, the Equality and Human Rights Commission has the power to issue enforcement notices, do investigations and take court action against the department.
 
 ## User researcher
 
-User researchers will help the team to understand the needs of the people who use the service, including those users who might have impairments and use assistive technologies.
+A user researcher will help the team to understand the needs of the people who use the service, including those users who might have impairments and use assistive technologies.
 
 Even before you have identified users in your own service, you can familiarise yourself with the <%= external_link("https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles", "GOV.UK user profiles")%> and how different impairments might affect people using the service.
 
-Researchers should:
+A user researcher should:
 
 - test a service with a range of people with different abilities
 - share insights with the rest of the team about how users of assisitive technology use the service
 
-<%= signpost_link("https://drive.google.com/drive/u/0/folders/1N-kos9wCVFhDZDbasJc6wPcM2YsK8pp5", "More guidance for user researchers in DfE", true)%>
+<%= signpost_link("https://drive.google.com/drive/u/0/folders/1N-kos9wCVFhDZDbasJc6wPcM2YsK8pp5", "Guidance for user research in DfE", true)%>
 
 ## Design
 
-Accessibility guidelines which apply to people working in the design of content, user interfaces and interactions in services and websites.
+Design disciplines work to defined standards to make sure that DfE services are inclusive, accessible and can be used by all people.
 
-Working to defined standards ensure services the Department for Education (DfE) create are inclusive and accessible and can be used by all people.
+Standards include removing risk by designing how things should work. 
 
-This includes removing risk by designing how things should work, this can be achieved by:
+This can be achieved by:
 
 - working with other designers, researchers and developers to build and test prototypes
 - following inclusive design principles
-- ensuring you meet component design criteria
+- ensuring design meets the component design criteria
 - contributing to the GOV.UK Design System backlog 
-- sharing your work with other designers across DfE
-- taking part in design crits, reviews and assessments to assure your designs are meeting these standards
+- sharing work with other designers across DfE
+- taking part in design crits, reviews and assessments to assure designs are meeting these standards
 
-<%= signpost_link("https://design-in-dfe.education.gov.uk/", "Full guidance, information and standards in the Design in DfE manual", true)%>
+<%= signpost_link("https://design-in-dfe.education.gov.uk/", "Guidance and standards in the Design in DfE manual", true)%>
 
 
 
-## Developers and testers
+## Developer and tester
 
-Developers need to work closely with interaction designers and content designers to make sure things like hover states, error messages and hidden text are considered.
+A developer need to work closely with interaction and content designers to make sure things like error messages, hidden text and hover states are considered.
 
-Testers should be ensuring that accessibility testing is included to find obvious problems. 
+A tester should make sure that accessibility testing is included to find obvious problems. 
 
 ### Definition of done
 
-We can’t deploy code which is not accessible, otherwise we are breaking the law. So if it’s not accessible it’s not done. As part of your definition of done, the service should be checked for accessibility using both automated and manual tests.
+We should not deploy code which is not accessible, otherwise we are breaking the law. So if it’s not accessible it’s not done. As part of your definition of done, the service should be checked for accessibility using both automated and manual tests.
 
 An example of accessibility considerations in a definition of done:
 
 - automated accessibility tests passing in the acceptance tests
-- manual accessibility tests passed using Accessibility Insights
+- manual accessibility tests passed using <%= external_link("https://accessibilityinsights.io", "Accessibility Insights (opens in new tab)")%> 
 - manually checked usability using a screen reader
 - manually checked usability using a screen magnifier
 - manually checked usability using speech recognition
 - accessibility statement updated
 
-<%= signpost_link("https://technical-guidance.education.gov.uk/", "Additional guidance is avialble in the DfE Technical manual", true)%>
+<%= signpost_link("https://technical-guidance.education.gov.uk/", "Additional guidance in DfE Technical Guidance", true)%>
 
-## Architects
+## Architect
 
-Architects are responsible for ensuring the components of the technical design for a service are able to meet accessibility standards. 
+An architect is responsible for making sure that the components of the technical design for a service are able to meet accessibility standards. 
 
-That could be through technical designs they create or ensuring appropriate non-functional requirements are present when procuring a managed service. 
+This could be through technical designs they create or making sure that appropriate non-functional requirements are present when procuring a managed service. 
 
-They also have a role in assuring a service is meeting accessibility standards, through internal technical assurance, for example, peer reviews, for a service assessment or managed service delivery reviews. 
+Architects make sure that a service meets accessibility standards through internal technical assurance. For example, peer reviews for a service assessment or managed service delivery reviews. 
 
-<%= signpost_link("https://dfe-digital.github.io/architecture/#dfe-architecture", "Additional guidance is avialble in the DfE Architecture manual", true)%>
+<%= signpost_link("https://dfe-digital.github.io/architecture/#dfe-architecture", "Additional guidance in DfE Architecture", true)%>
 
 
 ## Performance analyst
 
-Performance analysts considerations will be around presenting statistical data so that they don’t exclude anybody that might not be able to perceive complex charts or tables of data.
+A performance analyst's considerations will be around presenting statistical data, so that they don’t exclude anybody that might not be able to perceive complex charts or tables of data.
 

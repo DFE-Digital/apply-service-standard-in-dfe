@@ -211,39 +211,6 @@ footer {
     overflow: hidden;
 }
 
-.dfe-warning-callout {
-    margin-bottom: 40px;
-    margin-top: 80px;
-    padding: 24px;
-    background-color: #feefe7;
-    color: #0b0c0c;
-    border: 10px solid #f47738;
-    padding-top: 0 !important;
-
-}
-
-.dfe-warning-callout__label {
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 1.4;
-    background-color: #f47738;
-    color: #0b0c0c;
-    display: inline-block;
-    margin: 0 0 8px -34px;
-    padding: 8px 32px;
-    position: relative;
-    top: -48px;
-}
-
-.dfe-warning-callout p:first-of-type,
-.dfe-warning-callout ul:first-of-type {
-    margin-top: -20px;
-}
-
-.dfe-warning-callout p+ul:first-of-type {
-    margin-top: 20px;
-}
-
 
 .technical-documentation {
     padding-top: 30px !important;
@@ -652,7 +619,7 @@ footer {
     margin-bottom: 40px;
     margin-top: 80px;
     padding: 24px;
-    background-color: #fcd6c3;
+    background-color: #ffffff;
     color: #0b0c0c;
     border: 10px solid #f47738;
     padding-top: 0 !important;

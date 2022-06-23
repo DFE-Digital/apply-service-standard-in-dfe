@@ -6,11 +6,12 @@ show_govuk_logo: false
 service_name: Apply the Service Standard in DfE
 full_service_name: "Apply the Service Standard in the Department for Education"
 service_link: /
-phase: ALPHA
+phase: BETA
 
 # Links to show on right-hand-side of header
 header_links:
   About: /about.html
+  Feedback: /feedback.html
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true

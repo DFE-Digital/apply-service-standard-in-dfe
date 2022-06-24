@@ -20,6 +20,8 @@ https://apply-the-service-standard.education.gov.uk/accessibility/accessibility-
 https://apply-the-service-standard.education.gov.uk/accessibility/accessibility-audit.html
 https://apply-the-service-standard.education.gov.uk/accessibility/roles.html
 https://apply-the-service-standard.education.gov.uk/accessibility/
+https://apply-the-service-standard.education.gov.uk/service-assessments/book.html
+https://apply-the-service-standard.education.gov.uk/service-assessments/
 https://apply-the-service-standard.education.gov.uk/service-standard/2-solve-a-whole-problem.html
 https://apply-the-service-standard.education.gov.uk/service-standard/1-understand-user-needs.html
 https://apply-the-service-standard.education.gov.uk/service-standard/5-make-sure-everyone-can-use-the-service.html
@@ -28,7 +30,6 @@ https://apply-the-service-standard.education.gov.uk/service-standard/4-make-the-
 https://apply-the-service-standard.education.gov.uk/service-standard/3-join-up-across-channels.html
 https://apply-the-service-standard.education.gov.uk/service-standard/7-use-agile-ways-of-working.html
 https://apply-the-service-standard.education.gov.uk/service-standard/
-https://apply-the-service-standard.education.gov.uk/service-assessments.html
 https://apply-the-service-standard.education.gov.uk/sitemap.txt
 https://apply-the-service-standard.education.gov.uk/sitemap.xml
 https://apply-the-service-standard.education.gov.uk/CNAME

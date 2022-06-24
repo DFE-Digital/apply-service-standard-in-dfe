@@ -4566,6 +4566,16 @@ ol.dfe-standards-list {
         z-index: 2;
         left: -37px;
         top: 2px; }
+      .timeline ol > li h3:before {
+        content: "";
+        display: block;
+        width: calc(2 * 10px);
+        background-color: #b1b4b6;
+        border: 3px solid #b1b4b6;
+        position: absolute;
+        z-index: 2;
+        left: -50px;
+        top: 14px; }
     .timeline ol ul li a {
       text-decoration: underline; }
 

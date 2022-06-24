@@ -12,7 +12,6 @@ https://apply-the-service-standard.education.gov.uk/search/
 https://apply-the-service-standard.education.gov.uk/api/pages.json
 https://apply-the-service-standard.education.gov.uk/favicon.ico
 https://apply-the-service-standard.education.gov.uk/feedback.html
-https://apply-the-service-standard.education.gov.uk/about.html
 https://apply-the-service-standard.education.gov.uk/accessibility/training.html
 https://apply-the-service-standard.education.gov.uk/accessibility/laws-and-standards.html
 https://apply-the-service-standard.education.gov.uk/accessibility/digital-inclusion.html

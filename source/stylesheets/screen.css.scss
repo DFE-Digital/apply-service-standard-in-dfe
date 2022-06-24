@@ -1288,6 +1288,18 @@ ol.dfe-standards-list {
                 top: 2px;
             }
 
+            h3:before {
+                content: "";
+                display: block;
+                width: calc(2 * 10px);
+                background-color: #b1b4b6;
+                border: 3px solid #b1b4b6;
+                position: absolute;
+                z-index: 2;
+                left: -50px;
+                top: 14px;
+            }
+
 
         }
 

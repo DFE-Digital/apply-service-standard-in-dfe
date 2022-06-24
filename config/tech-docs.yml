@@ -10,7 +10,6 @@ phase: BETA
 
 # Links to show on right-hand-side of header
 header_links:
-  About: /about.html
   Feedback: /feedback.html
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.

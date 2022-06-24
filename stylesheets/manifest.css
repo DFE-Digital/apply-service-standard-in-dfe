@@ -3623,6 +3623,12 @@ footer {
   background-position-x: 0px;
   background-position-y: -5px; }
 
+.app-header .govuk-header__logo {
+  width: 65%; }
+
+.app-header .govuk-header__content {
+  width: 30%; }
+
 .govuk-header__navigation-item--active a:link,
 .govuk-header__navigation-item--active a:hover,
 .govuk-header__navigation-item--active a:visited {

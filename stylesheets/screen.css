@@ -4417,6 +4417,9 @@ ol.dfe-standards-list {
 .card a {
   outline: none; }
 
+.card h2 {
+  margin-top: 0px; }
+
 .card h2 a {
   text-decoration: none; }
 

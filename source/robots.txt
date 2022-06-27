@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apply-the-service-standard.education.gov.uk/sitemap.xml

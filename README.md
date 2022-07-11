@@ -1,6 +1,5 @@
 # Apply the Service Standard in the Department for Education
 
-
 👉 You can find out more about setting up and managing content for this service on the [Tech Docs Template documentation](https://tdt-documentation.london.cloudapps.digital/) site.
 
 ## Before you start

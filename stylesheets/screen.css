@@ -4500,7 +4500,7 @@ ol.dfe-standards-list {
 
 .technical-documentation blockquote {
   background: #f3f2f1;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 20px 0px;
   padding: 10px 25px; }
 
 .timeline {
@@ -4647,3 +4647,15 @@ ol.dfe-standards-list {
   color: #0b0c0c !important;
   outline: 3px solid rgba(0, 0, 0, 0);
   box-shadow: inset 0 0 0 1px #fd0; }
+
+pre {
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */ }

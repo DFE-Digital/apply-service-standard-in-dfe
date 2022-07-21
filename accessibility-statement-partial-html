@@ -1,0 +1,69 @@
+<h1>Accessibility statement</h1>
+
+<p>This statement applies to content on [replace with the name of the service].</p>
+
+<p>This website is run by the Department for Education. It is designed to be used by as many people as possible. The text should be clear and simple to understand. You should be able to:</p>
+
+<ul>
+<li>change colours, contrast levels and fonts</li>
+<li>zoom in up to 300% without the text spilling off the screen</li>
+<li>navigate most of the website using just a keyboard</li>
+<li>navigate most of the website using speech recognition software</li>
+<li>listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)</li>
+</ul>
+
+<p>We've also made the website text as simple as possible to understand.</p>
+
+<a href="https://mcmw.abilitynet.org.uk/" target="_blank" rel="noopner noreferrer">AbilityNet</a> has advice on making your device easier to use if you have a disability.
+
+<h2>Reporting accessibility problems with this website</h2>
+
+<p>If you find any problems that are not listed on this page or you think we're not meeting the accessibility requirements, [contact us].</p>
+
+<h2>Enforcement procedure</h2>
+
+<p>If you contact us with a complaint and you're not happy with our response <a rel="noopner noreferrer" href="https://www.equalityadvisoryservice.com/" target="_blank">contact the Equality Advisory and Support Service (<abbr title="Equality Advisory and Support Service">EASS</abbr>)</a>.</p>
+
+<p>The Equality and Human Rights Commission (<abbr title="Equality and Human Rights Commission">EHRC</abbr>) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the 'accessibility regulations').</p>
+
+<h2>Technical information about this website's accessibility</h2>
+
+<p>The Department for Education is committed to making its websites accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
+
+<h2>Compliance status</h2>
+
+<p>This website is partially compliant with the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>  version 2.1 AA standard, due to the non-compliance(s) [and/or] the exemptions listed below.</p>
+
+<h3>Non-accessible content</h3>
+
+<p>The content listed below is non-accessible for the following reason(s):</p>
+
+<h4>Non-compliance with the accessibility regulations</h4>
+
+> **Guidance notes:** List using non-technical language, as far as possible, how the content is not accessible, including reference(s) to the applicable requirements in the relevant standards and/or technical specifications that are not met. For example:
+>
+> - Some images don't contain alternative text to describe the image which does not meet <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html" target="_blank" rel="noopner noreferrer"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr>  version 2.1 AA - 1.1.1 Non-text Content</a> 
+
+<h4>Disproportionate burden</h4>
+
+<p>We have determined that there is disproportionate burden to meet all the requirements for the following reasons:</p>
+
+> **Guidance notes:** List non-accessible section(s)/content/function(s) for which the disproportionate burden exemption, within the meaning of the accessibility regulations is being temporarily invoked
+>
+> - Making improvements would exceed budget for the year and leave the department unable to do other work - and would not significantly improve things for disabled users.
+
+<h4>The content is not within the scope of the accessibility regulations</h4>
+
+> **Guidance notes:** List non-accessible content which is out of scope of the accessibility regulations, for example:
+>
+> - PDFs or other documents published before 23 September 2018 are out of scope of the regulations.
+
+<h2>How we tested this website</h2>
+
+<p>We use the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> version 2.1 A and AA standards to test how accessible this website is.</p>
+
+<p>We also tested a random sample of pages using accessibility testing tools.</p>
+
+<h2>Preparation of this accessibility statement</h2>
+
+<p>This statement was prepared on 18 June 2021. It was last reviewed on 21 July 2022</p>

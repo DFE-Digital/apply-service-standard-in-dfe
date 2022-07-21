@@ -6,7 +6,7 @@ show_govuk_logo: false
 service_name: "Apply the Service Standard in Department for Education"
 full_service_name: "Apply the Service Standard in the Department for Education"
 service_link: /
-phase: BETA
+phase: 
 
 # Links to show on right-hand-side of header
 header_links:

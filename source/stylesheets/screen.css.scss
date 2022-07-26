@@ -1,9 +1,5 @@
 @import "govuk_tech_docs";
 
-
-
-$dfe-blue: #003a69;
-
 body,
 p,
 h1,
@@ -30,6 +26,14 @@ tr {
         sans-serif !important;
 }
 
+
+$dfe-blue: #003a69;
+$accent: #912b88;
+
+h3 {
+    padding-top: 20px;
+}
+
 img {
     border: 1px solid #A8A8a8;
 }
@@ -43,7 +47,7 @@ img {
     margin-bottom: -10px;
     padding-top: 25px;
     padding-bottom: 15px;
-    border-bottom: 10px solid #f47738;
+    border-bottom: 10px solid $accent;
 }
 
 footer {
@@ -51,7 +55,13 @@ footer {
 }
 
 .technical-documentation {
-    max-width: 50em !important;
+    max-width: 100% !important;
+
+    & p,
+    .govuk-list,
+    blockquote, .dfeuk-do-dont-list, .dfeuk-warning-callout, .dfeuk-example-callout   {
+        max-width: 70ch;
+    }
 }
 
 .govuk-header__product-name {
@@ -71,8 +81,13 @@ footer {
     background-position-y: -5px;
 }
 
-.app-header .govuk-header__logo{width: 65%}
-.app-header .govuk-header__content{width: 30%}
+.app-header .govuk-header__logo {
+    width: 65%
+}
+
+.app-header .govuk-header__content {
+    width: 30%
+}
 
 
 .govuk-header__navigation-item--active a:link,
@@ -270,6 +285,7 @@ footer {
     border: 1px solid #b1b4b6;
     background: #fafaf9;
     padding: 5px 25px;
+    max-width: 60em;
 
     p {
         margin-bottom: 10px;
@@ -287,8 +303,56 @@ footer {
 
 }
 
+.dfe-large-panel {
+    margin-top: 30px !important;
+    padding: 30px;
+    border-left: 10px solid $accent;
+    background-color: #FBE9E7;
+
+    &:hover {
+        background-color: $accent;
+
+        color: #ffffff !important;
+
+        p>a {
+            background-color: #ffffff;
+            color: $accent  !important;
+        }
+
+        .fa-solid {
+            color: #ffffff;
+        }
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    p>a {
+        font-weight: 700;
+        font-size: 0.9em;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 8px 12px;
+        color: #ffffff !important;
+        background-color: $accent;
+
+
+    }
+
+    h2 a {
+        font-weight: 700;
+        font-size: 1em;
+        color: #ffffff;
+    }
+
+    .fa-solid {
+        color: $accent
+    }
+
+}
+
 .icon {
-    margin-top: 40px;
     text-align: center;
 }
 
@@ -302,9 +366,8 @@ footer {
 @media only screen and (min-width : 992px) {
     .standards-icon {
         display: block;
-        margin-top: 50px;
         text-align: center;
-        color: $dfe-blue;
+
     }
 }
 
@@ -1023,122 +1086,6 @@ ol.dfe-standards-list {
 }
 
 
-.cards>ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.card+.card {
-    margin-top: 1.5rem;
-}
-
-@supports (display: grid) {
-    .cards>ul {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-        grid-column-gap: 1.5rem;
-        grid-row-gap: 1.5rem;
-    }
-
-    .card+.card {
-        margin-top: 0;
-    }
-
-    @media (max-width: 400px) {
-        .cards>ul {
-            grid-gap: 4.5rem;
-        }
-    }
-}
-
-.card {
-    border: 1px solid;
-    border-radius: 0.25rem;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.card .text {
-    padding: 1rem;
-    flex: 1 0 auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.card p {
-    max-width: 60ch;
-}
-
-.card .img {
-    height: 6.5rem;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 1rem));
-}
-
-.card .img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: grayscale(100%);
-}
-
-.card a {
-    outline: none;
-}
-
-.card h2 {
-    margin-top:0px;
-}
-
-.card h2 a {
-    text-decoration: none;
-}
-
-.card h2 a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.card h2 a:focus {
-    outline: none;
-    text-decoration: underline;
-}
-
-.card:focus-within,
-.card:hover {
-    box-shadow: 0 0 0 0.25rem;
-}
-
-.card:focus-within h2 a:focus {
-    text-decoration: none;
-}
-
-.card small {
-    display: block;
-}
-
-.card small a {
-    position: relative;
-    padding: 0.5rem 0.5rem 0.5rem 0;
-}
-
-.card small a:hover,
-.card small a:focus {
-    font-weight: bold;
-}
-
-.card .text>*+* {
-    margin-top: 0.75rem;
-}
-
-.card .text> :last-child {
-    margin-top: auto;
-    padding-top: 0.75rem;
-}
 
 .dfe-pager {
     margin-top: 60px;
@@ -1159,12 +1106,12 @@ ol.dfe-standards-list {
         box-shadow: -2px 4px #0b0c0c;
         border-top: none;
 
-    border-top: 1px solid #fd0;
+        border-top: 1px solid #fd0;
     }
 
-    &:last-of-type{
+    &:last-of-type {
 
-    border-bottom: 1px solid #1b1c1c;
+        border-bottom: 1px solid #1b1c1c;
     }
 
 }
@@ -1185,14 +1132,18 @@ ol.dfe-standards-list {
     text-decoration: underline;
 }
 
-.dfe-pagination-action{
+.dfe-pagination-action {
     margin-left: 10px;
     line-height: 1.3157894737;
     font-weight: 700;
     font-size: 1rem;
 }
 
-.technical-documentation blockquote {background: #f3f2f1; margin: 20px 0px 20px 0px; padding: 10px 25px }
+.technical-documentation blockquote {
+    background: #f3f2f1;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 25px
+}
 
 
 
@@ -1297,17 +1248,7 @@ ol.dfe-standards-list {
                 top: 2px;
             }
 
-            h3:before {
-                content: "";
-                display: block;
-                width: calc(2 * 10px);
-                background-color: #b1b4b6;
-                border: 3px solid #b1b4b6;
-                position: absolute;
-                z-index: 2;
-                left: -50px;
-                top: 14px;
-            }
+
 
 
         }
@@ -1335,7 +1276,7 @@ ol.dfe-standards-list {
     margin-left: 0;
     margin-bottom: 22px;
     padding: 8px 10px 7px;
-    border: 2px solid rgba(0,0,0,0);
+    border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 0;
     color: #fff !important;
     background-color: #00703c;
@@ -1349,30 +1290,34 @@ ol.dfe-standards-list {
     text-decoration: none !important;
 }
 
-@media (min-width: 40.0625em){
-.govuk-button {
-    width: auto;
-}
+@media (min-width: 40.0625em) {
+    .govuk-button {
+        width: auto;
+    }
 }
 
-@media (min-width: 40.0625em){
-.govuk-button {
-    margin-bottom: 32px;
+@media (min-width: 40.0625em) {
+    .govuk-button {
+        margin-bottom: 32px;
+    }
 }
-}
-@media (min-width: 40.0625em){
-.govuk-button {
-    font-size: 19px;
-    font-size: 1.1875rem;
-    line-height: 1;
-}
+
+@media (min-width: 40.0625em) {
+    .govuk-button {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1;
+    }
 }
 
 .govuk-button:active {
     top: 2px;
 }
 
-.govuk-button:link, .govuk-button:visited, .govuk-button:active, .govuk-button:hover {
+.govuk-button:link,
+.govuk-button:visited,
+.govuk-button:active,
+.govuk-button:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -1384,19 +1329,351 @@ ol.dfe-standards-list {
     -webkit-box-shadow: 0 2px 0 #0b0c0c;
     box-shadow: 0 2px 0 #0b0c0c;
 }
+
 .govuk-button:focus {
     border-color: #fd0;
     color: #0b0c0c !important;
-    outline: 3px solid rgba(0,0,0,0);
+    outline: 3px solid rgba(0, 0, 0, 0);
     -webkit-box-shadow: inset 0 0 0 1px #fd0;
     box-shadow: inset 0 0 0 1px #fd0;
 }
 
 
-pre {
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+
+.dfeuk-border-top--thick {
+    border-top: 5px solid $accent;
+    padding-top: 15px;
+}
+
+.dfe-section-cta {
+    background-color: $accent;
+    padding: 15px;
+
+    a.govuk-button {
+        margin-bottom: 0px;
+        background: #ffffff !important;
+        color: #1b1c1c !important;
+    }
+}
+
+
+
+.dfe-horizontal-card {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #efefef;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.dfe-horizontal-card p.subtitle {
+    opacity: 0.9;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+
+
+.dfe-horizontal-card h2 {
+    margin: 10px 0;
+}
+
+.dfe-horizontal-card-preview {
+    background-color: #2A265F;
+    color: #fff !important;
+    padding: 40px 30px 30px 30px;
+    min-width: 75px;
+    max-width: 250px;
+    text-align: center;
+    vertical-align: middle;
+
+    &.first {
+        background-color: $accent;
+    }
+}
+
+.dfe-horizontal-card-preview a {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.dfe-horizontal-card-info h2 a {
+    color: $dfe-blue;
+    text-decoration: underline;
+}
+
+.dfe-horizontal-card-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+
+.dfe-horizontal-card-button {
+    background-color: #2A265F;
+    border: 0;
+    border-radius: 2px;
+    color: #fff !important;
+    font-size: 16px;
+    padding: 12px 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+
+    &:hover {
+        border-color: #fd0;
+        color: #1b1c1c !important;
+        background-color: #fd0;
+        -webkit-box-shadow: 0 2px 0 #0b0c0c;
+        box-shadow: 0 2px 0 #0b0c0c;
+    }
+
+
+    &:focus {
+        color: #1b1c1c !important;
+    }
+}
+
+.dfe-hero {
+    background-color: $accent;
+    padding: 30px;
+    color: #fff;
+
+    @media (max-width: 40.0625em) {
+        .fa-solid {
+            display: none;
+        }
+    }
+
+
+
+    h1,
+    h2,
+    p,
+    a,
+    p.govuk-body-l a {
+
+        color: #fff;
+    }
+
+    .bordered-top {
+        border-top: 2px solid #fff;
+        padding: 15px 0px 10px 0px;
+        margin-top: 15px;
+    }
+
+
+
+
+}
+
+
+.dfe-section-grey {
+    background-color: #f3f2f1;
+
+    padding: 30px;
+
+    .govuk-list {
+        margin-left: 50px;
+    }
+
+    .standards-icon {
+        color: $accent
+    }
+}
+
+
+.dfe-section-cta {
+    background-color: #f499be;
+    padding: 50px 30px;
+
+    a {
+        color: $dfe-blue  !important;
+        font-weight: 700;
+    }
+
+}
+
+.technical-documentation {
+    max-width: 100% !important;
+
+    & p,
+    .govuk-list,
+    blockquote {
+        max-width: 70ch;
+    }
+}
+
+.cards>ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card+.card {
+    margin-top: 1.5rem;
+}
+
+@supports (display: grid) {
+    .cards>ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 1.5rem;
+    }
+
+    .cards.cards-single>ul {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+
+        >li {
+            width: 60%;
+
+            
+        }
+    }
+
+    .card+.card {
+        margin-top: 0;
+    }
+
+    @media (max-width: 400px) {
+        .cards>ul {
+            grid-gap: 4.5rem;
+        }
+    }
+
+
+}
+
+
+
+.card {
+    border: 1px solid $accent;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card .text {
+    padding: 1rem;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards.top-text .card .text {
+    flex: 0 0 auto;
+}
+
+
+
+@supports (display: grid) {
+    .cards.top-text>ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 1.5rem;
+    }
+
+    .cards.top-text .card+.card {
+        margin-top: 0;
+    }
+
+    @media (max-width: 400px) {
+        .cards.top-text>ul {
+            grid-gap: 4.5rem;
+        }
+    }
+}
+
+.card {
+    background-color: #fff;
+
+    h3 {
+        font-size: 19px;
+        padding-top: 0px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 a {
+        text-decoration: none;
+    }
+
+    h3 a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    h3 a:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+    h3,
+    p,
+    a {
+        color: #0b0c0c;
+    }
+
+}
+
+
+
+.card:focus-within,
+.card:hover {
+    box-shadow: 0 0 0 0.25rem;
+}
+
+.card:focus-within h2 a:focus {
+    text-decoration: none;
+}
+
+.card small {
+    display: block;
+}
+
+.card small a {
+    position: relative;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.card small a:hover,
+.card small a:focus {
+    font-weight: bold;
+}
+
+.card .text>*+* {
+    margin-top: 0.75rem;
+}
+
+.card .text> :last-child {
+    margin-top: auto;   
+}
+
+
+blockquote {
+    font-stretch: expanded;
 }

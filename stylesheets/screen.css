@@ -4803,6 +4803,9 @@ ol.dfe-standards-list {
 .card .text > * + * {
   margin-top: 0.75rem; }
 
+h3 + p {
+  margin-top: 10px !important; }
+
 .card .text > :last-child {
   margin-top: auto; }
 

@@ -1570,6 +1570,8 @@ ol.dfe-standards-list {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+
+   
 }
 
 .cards.top-text .card .text {
@@ -1613,6 +1615,8 @@ ol.dfe-standards-list {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
+ 
 
     h3 a {
         text-decoration: none;
@@ -1669,8 +1673,12 @@ ol.dfe-standards-list {
     margin-top: 0.75rem;
 }
 
+ h3+p{margin-top:10px !important;}
+
 .card .text> :last-child {
-    margin-top: auto;   
+    margin-top: auto; 
+    
+   
 }
 
 

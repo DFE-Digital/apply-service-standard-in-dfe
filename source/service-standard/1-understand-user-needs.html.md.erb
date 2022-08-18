@@ -100,7 +100,7 @@ Assessors will look for:
 "not testing with users with access needs"], "Things to avoid", "dont") %>
 
 
-### At beta and live
+### At beta 
 
 Assessors will look for:
 
@@ -114,6 +114,10 @@ Assessors will look for:
 - a Data Protection Impact Assessment (DPIA) has been carried out, where neccessary
 - any neccessary security testing
 
+<%= do_dont_list(["not testing all service touch points","
+not doing usability testing with users with access needs, separate from an audit"], "Things to avoid", "dont") %>
+
+
 <%# <%= do_dont_list(["recommendations from the alpha assessment have been addressed",
 "a plan for ongoing research and continuous improvement",
 "feedback is gathered through a variety of methods, not just usability testing",
@@ -125,8 +129,16 @@ Assessors will look for:
 "where neccessary, the team has carried out a Data Protection Impact Assessment (DPIA)", 
 "any neccessary security testing"], "Assessors will look for", "do") %> 
 
-<%= do_dont_list(["not testing all service touch points","
-not doing usability testing with users with access needs, separate from an audit"], "Things to avoid", "dont") %>
+### At live
+
+Assessors will look for:
+
+- recommendations from beta assessment have been addressed
+- user research working with performance analysis to define success metrics
+- a Data Protection Impact Assessment (DPIA) has been carried out, where neccessary
+- a third party accessibility audit of the service and actions taken based on findings
+- any neccessary security testing
+- what the team has done beyond public beta to meet user needs and deliver outcomes
     
 ## Profession specific guidance
 

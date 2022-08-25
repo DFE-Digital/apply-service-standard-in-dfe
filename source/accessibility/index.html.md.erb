@@ -1,24 +1,15 @@
 ---
 title: Accessibility
 weight: 200
+description: Everyone, no matter their profession, has specific roles and responsibilites to make sure DfE services are accessible.
 ---
 
 <%= partial "ga" %>
-<script src="https://kit.fontawesome.com/2f8f69be63.js" crossorigin="anonymous"></script>
 
-<div class="dfe-hero">
-   <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
-         <h1 class="govuk-heading-xl govuk-!-font-size-80">Accessibility</h1>
-         <p class="govuk-body-l">Everyone, no matter their profession, has specific roles and responsibilites to make sure DfE services are accessible.</p>
-         <p class="govuk-body-l govuk-!-font-weight-bold">The Standards in this manual should be used alongside the <a href="https://design.education.gov.uk/accessibility/" target="_blank">Design manual guidance</a>.</p>
+<%= hero(current_page.data.title,current_page.data.description +  '<p class="govuk-body-l govuk-!-font-weight-bold">The Standards in this manual should be used alongside the <a href="https://design.education.gov.uk/accessibility/" target="_blank">Design manual guidance</a>.</p>')%>
 
-      </div>
-      <div class="govuk-grid-column-one-third standards-icon">
-        <i class="fa-solid fa-universal-access fa-10x"></i>
-      </div>
- 
-   <div class="govuk-grid-column-full">
+
+<div class="dfe-hero govuk-!-padding-bottom-2">
     <h2 class="govuk-heading-m bordered-top">Standards and assurance</h2>
       <div class="cards">
         <ul>
@@ -46,12 +37,10 @@ weight: 200
               <p>Accessibility should be part of every stage of the service delivery lifecycle, find out what this means for different roles in DfE.</p>
             </div>
           </li>
-         
         </ul>
       </div>
-        </div>
-   </div>
 </div>
+
 <div class="dfe-section-grey">
    <h2 class="govuk-heading-m">Templates, tools and training</h2>
    <p class="govuk-body">Supporting tools and services to help you implement accessible services.</p>

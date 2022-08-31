@@ -20,6 +20,7 @@ https://apply-the-service-standard.education.gov.uk/accessibility-statement-part
 https://apply-the-service-standard.education.gov.uk/sitemap.xml
 https://apply-the-service-standard.education.gov.uk/
 https://apply-the-service-standard.education.gov.uk/feedback.html
+https://apply-the-service-standard.education.gov.uk/contribute.html
 https://apply-the-service-standard.education.gov.uk/accessibility-statement-notmet-html
 https://apply-the-service-standard.education.gov.uk/sitemap.txt
 https://apply-the-service-standard.education.gov.uk/accessibility/accessibility-statement.html

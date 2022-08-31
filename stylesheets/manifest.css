@@ -4403,7 +4403,6 @@ ol.dfe-standards-list {
 
 .dfe-pagination {
   text-decoration: none !important;
-  width: 100%;
   padding: 25px;
   display: block;
   border-top: 1px solid #1b1c1c;
@@ -4876,7 +4875,7 @@ blockquote {
     max-width: 100% !important; }
     .technical-documentation p,
     .technical-documentation .govuk-list,
-    .technical-documentation .dfeuk-example-callout {
+    .technical-documentation .dfeuk-example-callout, .technical-documentation .govuk-warning-text {
       max-width: 80%; }
     .technical-documentation .DosAndDontsstyled__DosAndDontsContainerStyled,
     .technical-documentation div.highlight {

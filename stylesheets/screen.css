@@ -4875,7 +4875,7 @@ blockquote {
     max-width: 100% !important; }
     .technical-documentation p,
     .technical-documentation .govuk-list,
-    .technical-documentation .dfeuk-example-callout, .technical-documentation .govuk-warning-text {
+    .technical-documentation .dfeuk-example-callout, .technical-documentation .govuk-warning-text, .technical-documentation .dfeuk-do-dont-list {
       max-width: 80%; }
     .technical-documentation .DosAndDontsstyled__DosAndDontsContainerStyled,
     .technical-documentation div.highlight {

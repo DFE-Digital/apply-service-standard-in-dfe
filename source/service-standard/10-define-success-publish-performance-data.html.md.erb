@@ -5,17 +5,35 @@ weight: 10
 
 <%= partial "ga" %>
 
-<a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+<div class="dfe-section-darker-grey">
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full"><a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+	</div>
+	</div>
+	</div>
+<div class="dfe-section-grey">
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full">
+			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
+			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-10-define-success-publish-performance-data" target="_blank" rel="noopner noreferrer">standard point 10 define what success looks like and publish performance data (opens in new tab)</a>.</p>
+		<div class="bordered-top--dark"></div>
+		</div>
+	</div>
+	<div class="govuk-grid-row ">
+		<div class="govuk-grid-column-full">
+		<span class="govuk-caption-m">Guidance for</span>
+		<strong class="govuk-tag">Performance Analysts</strong>
+		</div>
+	</div>
+</div>
 
-#10. Define what success looks like and publish performance data
-
-<%= banner_panel("You'll be assessed on this","You'll be assessed on what you've done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.")%>
-
-This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-10-define-success-publish-performance-data" target="_blank" rel="noopner noreferrer">standard point 10 define what success looks like and publish performance data (opens in new tab)</a>. 
 
 Work out what success looks like for your DfE service. Collect performance information across all channels so that you can measure and show that the service is effective and improving.
 
-## Why it's important
+## Why it's important 
+
+<%= example_panel("Assurance","<p>You’ll be assessed on what you’ve done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
+
 
 Having clear objectives, a definition of what success looks like and appropriate metrics means that you'll know whether the service is solving the problem it's meant to solve.
 

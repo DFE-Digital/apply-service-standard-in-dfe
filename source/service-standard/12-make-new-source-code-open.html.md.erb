@@ -5,17 +5,34 @@ weight: 12
 
 <%= partial "ga" %>
 
-<a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
-
-#12. Make new source code open
-
-<%= banner_panel("You'll be assessed on this","You'll be assessed on what you've done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.")%>
-
-This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open" target="_blank" rel="noopner noreferrer">standard point 12 make new source code open (opens in new tab)</a>. 
+<div class="dfe-section-darker-grey">
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full"><a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+	</div>
+	</div>
+	</div>
+<div class="dfe-section-grey">
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full">
+			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
+			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open" target="_blank" rel="noopner noreferrer">standard point 12 make new source code open (opens in new tab)</a>.</p>
+		<div class="bordered-top--dark"></div>
+		</div>
+	</div>
+	<div class="govuk-grid-row ">
+		<div class="govuk-grid-column-full">
+		<span class="govuk-caption-m">Guidance for</span><strong class="govuk-tag">Architecture</strong>
+		<strong class="govuk-tag">Technical</strong> 
+		</div>
+	</div>
+</div>
 
 Make all new source code open and reusable, and publish it under appropriate licences.
 
-## Why it's important
+## Why it's important 
+
+<%= example_panel("Assurance","<p>You’ll be assessed on what you’ve done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
+
 
 Public services are built with public money. So unless there's a good reason not to, the code they're based on, should be made available for other people to reuse and build on.
 

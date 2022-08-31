@@ -1379,10 +1379,10 @@ ol.dfe-standards-list {
 }
 
 .fullCTA {
-    background-color: $secondary;
-    padding: 15px;
+    // border-left: 10px solid $dfe-blue;
+    padding: 15px 15px 15px 0px;
     font-weight: 600;
-    border-top: 5px solid $dfe-blue;
+    // background-color: #eef4fa;
 
     p {
         margin-left: 50px;
@@ -1390,12 +1390,13 @@ ol.dfe-standards-list {
 
     >p,
     a {
-        color: #ffffff !important;
+        color: $dfe-blue !important;
     }
 
     svg {
         float: left;
         margin-top: 8px;
+        fill: $dfe-blue;
     }
 
     &+p {
@@ -1516,21 +1517,31 @@ ol.dfe-standards-list {
         color: #fff !important;
     }
 
-    .bordered-top {
-        border-top: 2px solid #fff;
-        padding: 15px 0px 10px 0px;
-        margin-top: 15px;
-    }
+  
 
 
 
 
 }
 
+.bordered-top {
+    border-top: 2px solid #fff;
+    padding: 15px 0px 10px 0px;
+    margin-top: 15px;
+}
+
+.bordered-top--dark {
+    border-top: 2px solid #b1b4b6;
+    margin: 25px 0px;
+
+}
+
+
 
 .dfe-section-grey {
-    background-color: #f3f2f1;
+    background-color: #f8f7f7;
 
+    margin-bottom: 40px;
     padding: 30px;
 
     // .govuk-list {
@@ -1540,6 +1551,17 @@ ol.dfe-standards-list {
     .standards-icon {
         color: $accent
     }
+
+    .govuk-caption-m{font-size: 16px; font-weight: 700; color: #1b1c1c; padding-bottom: 5px;}
+
+    
+}
+
+.dfe-section-darker-grey {
+    background-color: #f3f2f1;
+
+    padding: 15px 30px;
+    
 }
 
 

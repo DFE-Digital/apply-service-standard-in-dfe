@@ -5,19 +5,44 @@ weight: 1
 
 <%= partial "ga" %>
 
-<a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+<div class="dfe-section-darker-grey">
 
-# 1. Understand users and their needs
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full"><a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+	</div>
+	</div>
+	</div>
+<div class="dfe-section-grey">
 
-<%= banner_panel("You'll be assessed on this","You'll be assessed on what you've done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.")%>
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full">
+			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
+			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs" target="_blank" rel="noopner noreferrer">standard point 1 understand users and their needs (opens in new tab)</a>.</p>
+		<div class="bordered-top--dark"></div>
+		</div>
+	</div>
+	<div class="govuk-grid-row ">
+		<div class="govuk-grid-column-full">
+		<span class="govuk-caption-m">Guidance for</span>
+		<strong class="govuk-tag">User Researchers</strong>
+		</div>
+	</div>
+</div>
 
-This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs" target="_blank" rel="noopner noreferrer">standard point 1 understand users and their needs (opens in new tab)</a>.
+
+
 
 Take time to understand users' needs and the problem you're trying to solve for them.
 
 Think about people's entire experience and the systems and processes around the product or service you're building.
 
 ## Why it's important
+
+
+ 
+<%= example_panel("Assurance","<p>You’ll be assessed on what you’ve done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
+
+
 
 You need to understand your users and their needs to build something that helps them. Otherwise you could build the wrong thing or make DfE services more difficult to use.
 
@@ -32,6 +57,7 @@ This standard may not be applicable if what you are building:
 - prioritises business requirements over user needs
 
 If this is the case, you may need to consider whether or not you go through a service assessment. Other standards may still be applicable to your service, for example <a href='/service-standard/5-make-sure-everyone-can-use-the-service.html'>point 5 make sure everyone can use the service</a>. 
+
 
 
 ## How to meet this standard at each phase
@@ -51,16 +77,9 @@ Assessors will look for:
 - a prioritised list of user needs
 - a prioritised list of user stories, including security anti-personas if relevant
 - an understanding of the difference between users and stakeholders
-- a Data Protection Impact Assessment (DPIA) has been started, where neccessary
+- a <a href="https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx" target="_blank">Data Protection Impact Assessment (DPIA) (opens intranet page in new tab)</a> has been started, where neccessary
 - a plan for alpha
 
-<%# <%= do_dont_list(["a good understanding of the types and numbers of users who might use the service", 
-"how the team have involved and considered users with access needs",
-"evidence of a variety of potential ways to solve the user needs",
-"well scoped research questions",
-"a variety of methods of user research",
-"an understanding of the difference between users and stakeholders", 
-"a plan for alpha"], "Assessors will look for", "do") %> 
 
 <%= do_dont_list(["user needs that describe solutions or business requirements", "user needs that confuse needs with desires"], "Things to avoid", "dont") %>
  
@@ -75,7 +94,7 @@ Assessors will look for:
 - how <a href="https://design.education.gov.uk/inclusive-design.html" target="_blank">inclusive design (opens in new tab)</a> is being considered in addition to testing with people with access needs
 - an [accessibility audit](/accessibility/accessibility-audit.html) plan
 - hypotheses related to user needs
-- hypotheses tested with a variety of quick, throwaway prototypes
+- hypotheses tested with a variety of quick, throwaway <a href="https://design.education.gov.uk/prototyping/" target="_blank">prototypes (opens in new tab)</a>
 - research that identifies parts of the service which users find difficult
 - evidence of how the team iterated the service to make these parts easier for users and how this was tested and researched 
 - concepts being tested and validated with users with access needs
@@ -97,10 +116,10 @@ Assessors will look for:
 - a plan for ongoing research and continuous improvement
 - choosing the best methods to get results and feedback for the problems identified, not just relying on usability testing
 - user research working with performance analysis to define success metrics
-- how design and user needs have changed over time based on user research
+- how design and user needs have <a href="https://design.education.gov.uk/design-histories.html" target="_blank">changed over time (opens in new tab)</a> based on user research
 - assisted digital routes have been tested
-- a third party accessibility audit of the service and actions taken based on findings
-- a Data Protection Impact Assessment (DPIA) has been carried out, where neccessary
+- a third party [accessibility audit](/accessibility/accessibility-audit.html) of the service and actions taken based on findings
+- a <a href="https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx" target="_blank">Data Protection Impact Assessment (DPIA) (opens intranet page in new tab)</a> has been carried out, where neccessary
 - any neccessary security testing
 
 <%= do_dont_list(["not testing all service touch points","
@@ -113,8 +132,8 @@ Assessors will look for:
 
 - recommendations from beta assessment have been addressed
 - user research working with performance analysis to define success metrics
-- a Data Protection Impact Assessment (DPIA) has been carried out, where neccessary
-- a third party accessibility audit of the service and actions taken based on findings
+- a <a href="https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx" target="_blank">Data Protection Impact Assessment (DPIA) (opens intranet page in new tab)</a> has been carried out, where neccessary
+- a third party [accessibility audit](/accessibility/accessibility-audit.html) of the service and actions taken based on findings
 - any neccessary security testing
 - what the team has done beyond public beta to meet user needs and deliver outcomes
     

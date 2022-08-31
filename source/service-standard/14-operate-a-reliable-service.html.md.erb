@@ -5,12 +5,35 @@ weight: 14
 
 <%= partial "ga" %>
 
-<a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+<div class="dfe-section-darker-grey">
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full"><a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+	</div>
+	</div>
+	</div>
+<div class="dfe-section-grey">
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full">
+			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
+			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-14-operate-a-reliable-service" target="_blank" rel="noopner noreferrer">standard point 14 operate a reliable service (opens in new tab)</a>.</p>
+		<div class="bordered-top--dark"></div>
+		</div>
+	</div>
+	<div class="govuk-grid-row ">
+		<div class="govuk-grid-column-full">
+		<span class="govuk-caption-m">Guidance for</span>
+		<strong class="govuk-tag">Architecture</strong>
+		<strong class="govuk-tag">Delivery Managers</strong> 
+		<strong class="govuk-tag">Product Managers</strong> 
+		<strong class="govuk-tag">Technical</strong> 
+		</div>
+	</div>
+</div>
 
-#14. Operate a reliable service
 
-<%= banner_panel("You'll be assessed on this","You'll be assessed on what you've done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.")%>
+## Why it's important 
 
+<%= example_panel("Assurance","<p>You’ll be assessed on what you’ve done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
 
 This page hasn't been written yet as we're still in beta and working our way through content.
 

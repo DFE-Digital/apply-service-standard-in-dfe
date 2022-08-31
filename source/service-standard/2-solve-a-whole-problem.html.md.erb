@@ -5,26 +5,40 @@ weight: 2
 
 <%= partial "ga" %>
 
-<a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+<div class="dfe-section-darker-grey">
 
-# 2. Solve a whole problem for users
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full"><a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
+	</div>
+	</div>
+	</div>
+<div class="dfe-section-grey">
 
-<%= banner_panel("You'll be assessed on this","You'll be assessed on what you've done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.")%>
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-full">
+			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
+			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem" target="_blank" rel="noopner noreferrer">standard point 2 solve a whole problem for users (opens in new tab)</a>.</p>
+		<div class="bordered-top--dark"></div>
+		</div>
+	</div>
+	<div class="govuk-grid-row ">
+		<div class="govuk-grid-column-full">
+		<span class="govuk-caption-m">Guidance for</span>
+		<strong class="govuk-tag">Service Designers</strong>
+		</div>
+	</div>
+</div>
 
-
-This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem" target="_blank" rel="noopner noreferrer">standard point 2 solve a whole problem for users (opens in new tab)</a>. 
 
 Consider where your service fits in your users' journey and whether you can solve a whole problem or influence a wider solution.  
 
 Collaborate across teams, programmes and other services to create a service that meets users' needs across all channels in the end-to-end journey. For example, if users have to come in and then out of the service again to reach their end goal, what would that look like.
 
 
-<%= example_panel("Think about","<p>If you are providing a service to schools which will be used by people who use other DfE services, is your service consistent in the look and feel, the language used, the tone of voice.</p>
-<p>Does the service look and feel like other DfE services - will it feel familiar to them and make it easy for them to complete a task?</p>
-<p>How will they know about the service, does it have a starting point on GOV.UK?</p>
-<p>Have you spoken to teams on similar services and shared knowledge of the types of users, user research carried out or the design work done to meet user needs?</p>")%>
-
 ## Why it's important 
+
+<%= example_panel("Assurance","<p>You’ll be assessed on what you’ve done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
+
 
 People often do not know how education services fit together. It helps if you can bring things together into a journey which makes sense to users, irrespective of which organisation they belong to or channel they use.
 
@@ -33,6 +47,12 @@ You may not be able to fix a whole problem, but you may be able to improve it an
 ## How to meet this standard at each phase
 
 It's good practice to consider how you'll meet this standard, even if the service you are working on is not being assessed.
+
+<%= example_panel("Think about","<p>If you are providing a service to schools which will be used by people who use other DfE services, is your service consistent in the look and feel, the language used, the tone of voice.</p>
+<p>Does the service look and feel like other DfE services - will it feel familiar to them and make it easy for them to complete a task?</p>
+<p>How will they know about the service, does it have a starting point on GOV.UK?</p>
+<p>Have you spoken to teams on similar services and shared knowledge of the types of users, user research carried out or the design work done to meet user needs?</p>")%>
+
 
 ### At discovery 
 

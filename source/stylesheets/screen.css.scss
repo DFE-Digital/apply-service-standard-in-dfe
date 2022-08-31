@@ -1091,7 +1091,6 @@ ol.dfe-standards-list {
 
 
     text-decoration: none !important;
-    width: 100%;
     padding: 25px;
     display: block;
     border-top: 1px solid #1b1c1c;
@@ -1777,7 +1776,7 @@ blockquote {
 
         & p,
         .govuk-list,
-        .dfeuk-example-callout {
+        .dfeuk-example-callout, .govuk-warning-text {
             max-width: 80%;
         }
 

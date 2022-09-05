@@ -15,13 +15,13 @@ weight: 5
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-full">
 			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
-			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service" target="_blank" rel="noopner noreferrer">standard point 5 make sure everyone can use the service (opens in new tab)</a>.</p>
+			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service" target="_blank" rel="noopner noreferrer">standard point 5 (opens in new tab)</a>.</p>
 		<div class="bordered-top--dark"></div>
 		</div>
 	</div>
 	<div class="govuk-grid-row ">
 		<div class="govuk-grid-column-full">
-		<span class="govuk-caption-m">Guidance for</span>
+		<span class="govuk-caption-m">Everyone is responsible for meeting the Service Standard. This standard point is relevant for:</span>
 		<strong class="govuk-tag">Content Designers</strong> 
 		<strong class="govuk-tag">Interaction Designers</strong> 
 		<strong class="govuk-tag">Service Designers</strong>
@@ -36,7 +36,7 @@ This also includes people who do not have access to the internet or may find it 
 
 ## Why it's important 
 
-<%= example_panel("Assurance","<p>You’ll be assessed on what you’ve done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
+<%= example_panel("For assurance","<p>You’ll be assessed on what you’ve done to meet this service standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
 
 
 Everyone who works on DfE digital services has a role to play in making them accessible and inclusive.
@@ -64,7 +64,7 @@ Assessors will look for:
 "research findings about user preference not user behaviour",
 "no user research or limited research has taken place",
 "no hypotheses for alpha",
-"user needs that describe solutions or business requirements"], "Things to avoid", "dont") %>
+"user needs that describe solutions or business requirements"], "Things to avoid at discovery", "dont") %>
 
 ### At alpha
 
@@ -82,7 +82,7 @@ Assessors will look for:
 - content written in plain English
 
 <%= do_dont_list(["limited testing of hypotheses about how people will use the service",
-"not enough testing of delivering content in different ways"], "Things to avoid", "dont") %>
+"not enough testing of delivering content in different ways"], "Things to avoid at alpha", "dont") %>
 
 ### At beta 
 
@@ -99,7 +99,7 @@ Assessors will look for:
 <%= do_dont_list(["not enough people with access needs invited to use the private beta", 
 "not having or testing an assisted digital route",
 "not enough research to understand how users with access needs might interact with the service",
-"accessibility testing being an afterthought"], "Things to avoid", "dont") %>
+"accessibility testing being an afterthought"], "Things to avoid at beta", "dont") %>
 
 ### At live
 

@@ -17,13 +17,13 @@ weight: 1
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-full">
 			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
-			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs" target="_blank" rel="noopner noreferrer">standard point 1 understand users and their needs (opens in new tab)</a>.</p>
+			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs" target="_blank" rel="noopner noreferrer">standard point 1 (opens in new tab)</a>.</p>
 		<div class="bordered-top--dark"></div>
 		</div>
 	</div>
 	<div class="govuk-grid-row ">
 		<div class="govuk-grid-column-full">
-		<span class="govuk-caption-m">Guidance for</span>
+		<span class="govuk-caption-m">Everyone is responsible for meeting the Service Standard. This standard point is relevant for:</span>
 		<strong class="govuk-tag">User Researchers</strong>
 		</div>
 	</div>
@@ -40,24 +40,15 @@ Think about people's entire experience and the systems and processes around the 
 
 
  
-<%= example_panel("Assurance","<p>You’ll be assessed on what you’ve done to meet this Service Standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
+<%= example_panel("For assurance","<p>You’ll be assessed on what you’ve done to meet this service standard point at <a href='/service-assessments/'>service assessments</a>.</p>")%>
 
 
 
 You need to understand your users and their needs to build something that helps them. Otherwise you could build the wrong thing or make DfE services more difficult to use.
 
-Understanding as much of the context as possible will give you the best chance of meeting users' needs in the most simple, cost effective way.
+Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost effective way.
 
 The most obvious problem is not always the one that needs solving. Test assumptions early and often to reduce the risk of building the wrong thing.
-
-This standard may not be applicable if what you are building:
-
-- does not have identifiable user needs but is delivering a DfE policy intent, or
-
-- prioritises business requirements over user needs
-
-If this is the case, you may need to consider whether or not you go through a service assessment. Other standards may still be applicable to your service, for example <a href='/service-standard/5-make-sure-everyone-can-use-the-service.html'>point 5 make sure everyone can use the service</a>. 
-
 
 
 ## How to meet this standard at each phase
@@ -76,25 +67,25 @@ Assessors will look for:
 - a variety of methods of user research
 - a prioritised list of user needs
 - a prioritised list of user stories, including security anti-personas if relevant
-- an understanding of the difference between users and stakeholders
-- a <a href="https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx" target="_blank">Data Protection Impact Assessment (DPIA) (opens intranet page in new tab)</a> has been started, where neccessary
+- an understanding of the difference between users and project stakeholders
+- a <a href="https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx" target="_blank">Data Protection Impact Assessment (DPIA) (opens intranet page in new tab)</a> has been started, where necessary
 - a plan for alpha
 
 
-<%= do_dont_list(["user needs that describe solutions or business requirements", "user needs that confuse needs with desires"], "Things to avoid", "dont") %>
+<%= do_dont_list(["user needs that describe solutions or business requirements", "confusing user needs with desires"], "Things to avoid at discovery", "dont") %>
  
 ### At alpha
 
 Assessors will look for:
 
+- hypotheses related to user needs
+- hypotheses tested with a variety of quick, throwaway <a href="https://design.education.gov.uk/prototyping/" target="_blank">prototypes (opens in new tab)</a>
 - collaboration with other service-related teams and stakeholders, including policy 
 - use of existing research and performance data across DfE
 - clear definition of user needs
 - clear definition of user groups
 - how <a href="https://design.education.gov.uk/inclusive-design.html" target="_blank">inclusive design (opens in new tab)</a> is being considered in addition to testing with people with access needs
 - an [accessibility audit](/accessibility/accessibility-audit.html) plan
-- hypotheses related to user needs
-- hypotheses tested with a variety of quick, throwaway <a href="https://design.education.gov.uk/prototyping/" target="_blank">prototypes (opens in new tab)</a>
 - research that identifies parts of the service which users find difficult
 - evidence of how the team iterated the service to make these parts easier for users and how this was tested and researched 
 - concepts being tested and validated with users with access needs
@@ -105,7 +96,7 @@ Assessors will look for:
 
 <%= do_dont_list(["research findings that are about user preferences rather than user behaviour",
 "a lack of different ways of testing solutions",
-"not testing with users with access needs"], "Things to avoid", "dont") %>
+"not testing with users with access needs"], "Things to avoid at alpha", "dont") %>
 
 
 ### At beta 
@@ -114,16 +105,16 @@ Assessors will look for:
 
 - recommendations from alpha assessment have been addressed
 - a plan for ongoing research and continuous improvement
-- choosing the best methods to get results and feedback for the problems identified, not just relying on usability testing
+- choosing the best methods to get results and feedback for the problems identified, not just relying on usability testing. Other methods you could use include a survey or analytics
 - user research working with performance analysis to define success metrics
 - how design and user needs have <a href="https://design.education.gov.uk/design-histories.html" target="_blank">changed over time (opens in new tab)</a> based on user research
-- assisted digital routes have been tested
+- assisted digital routes, for example, offline or supporting routes, have been tested
 - a third party [accessibility audit](/accessibility/accessibility-audit.html) of the service and actions taken based on findings
 - a <a href="https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx" target="_blank">Data Protection Impact Assessment (DPIA) (opens intranet page in new tab)</a> has been carried out, where neccessary
 - any neccessary security testing
 
 <%= do_dont_list(["not testing all service touch points","
-not doing usability testing with users with access needs, separate from an audit"], "Things to avoid", "dont") %>
+not doing usability testing with users with access needs, separate from an audit"], "Things to avoid at beta", "dont") %>
 
 
 ### At live
@@ -135,8 +126,19 @@ Assessors will look for:
 - a <a href="https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx" target="_blank">Data Protection Impact Assessment (DPIA) (opens intranet page in new tab)</a> has been carried out, where neccessary
 - a third party [accessibility audit](/accessibility/accessibility-audit.html) of the service and actions taken based on findings
 - any neccessary security testing
-- what the team has done beyond public beta to meet user needs and deliver outcomes
+- what the team has done beyond public beta to continue to meet user needs and deliver outcomes
     
+
+### Consider whether a service assessment is needed
+
+If you are building a service that:
+
+- delivers a DfE policy intent rather than identifiable user needs
+
+- prioritises business requirements over user needs
+
+You may need to consider whether or not you go through a service assessment. Speak to your product manager and raise as a risk for your service. Other standards may still be applicable to your service, for example <a href='/service-standard/5-make-sure-everyone-can-use-the-service.html'>point 5, make sure everyone can use the service</a>. 
+
 ## Profession specific guidance
 
 Each DDaT profession in DfE has their own community and guidance.

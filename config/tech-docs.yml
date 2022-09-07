@@ -6,12 +6,17 @@ show_govuk_logo: false
 service_name: "Apply the Service Standard in Department for Education"
 full_service_name: "Apply the Service Standard in the Department for Education"
 service_link: /
-phase: 
+show_footer: true
 
 # Links to show on right-hand-side of header
 header_links:
   Feedback: /feedback.html
   Contribute: /contribute.html
+
+footer_links:
+  Contribute: https://ukgovernmentdfe.slack.com/archives/C03LP9VRQSJ
+  Feedback: /feedback.html
+  Accessibility statement: /accessibility-statement.html
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
@@ -35,3 +40,5 @@ prevent_indexing: false
 
 show_contribution_banner: true
 github_repo: DFE-Digital/apply-service-standard-in-dfe
+
+show_review_banner: true

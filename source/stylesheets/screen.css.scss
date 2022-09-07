@@ -1771,10 +1771,14 @@ blockquote {
     .technical-documentation {
         max-width: 100% !important;
 
+        & p{
+            line-height: 150%;
+        }
         & p,
         .govuk-list,
         .dfeuk-example-callout, .govuk-warning-text, .dfeuk-do-dont-list {
             max-width: 80%;
+            line-height: 150%;
         }
 
         .DosAndDontsstyled__DosAndDontsContainerStyled,

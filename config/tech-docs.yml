@@ -42,3 +42,4 @@ show_contribution_banner: true
 github_repo: DFE-Digital/apply-service-standard-in-dfe
 
 show_review_banner: true
+show_expiry: false

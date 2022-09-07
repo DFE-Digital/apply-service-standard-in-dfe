@@ -4888,5 +4888,8 @@ blockquote {
       grid-column-gap: 1rem;
       grid-row-gap: 1rem; } } }
 
+.technical-documentation > ul > li, .govuk-list--bullet > li, .technical-documentation > ol > li, .govuk-list--number > li {
+  line-height: 150%; }
+
 
 

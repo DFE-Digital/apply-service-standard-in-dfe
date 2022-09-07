@@ -4870,10 +4870,13 @@ blockquote {
 @media only screen and (min-width: 1400px) {
   .technical-documentation {
     max-width: 100% !important; }
+    .technical-documentation p {
+      line-height: 150%; }
     .technical-documentation p,
     .technical-documentation .govuk-list,
     .technical-documentation .dfeuk-example-callout, .technical-documentation .govuk-warning-text, .technical-documentation .dfeuk-do-dont-list {
-      max-width: 80%; }
+      max-width: 80%;
+      line-height: 150%; }
     .technical-documentation .DosAndDontsstyled__DosAndDontsContainerStyled,
     .technical-documentation div.highlight {
       max-width: 80%; }

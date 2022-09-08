@@ -5,7 +5,7 @@ class ExternalLink < Middleman::Extension
 
   helpers do
     def external_link(url, text)
-      "<a href='#{url}' rel='noopner noreferrer' target='_blank'>#{text}</a>"
+      "<a href='#{url}' rel='noopner noreferrer' target='_blank'>#{text} (opens in new tab)</a>"
     end
   end
 end

@@ -3625,9 +3625,6 @@ img {
   background-position-x: 0px;
   background-position-y: -5px; }
 
-.app-header .govuk-header__logo {
-  width: 65%; }
-
 .app-header .govuk-header__content {
   width: 30%; }
 
@@ -3835,6 +3832,10 @@ img {
     display: block;
     text-align: center; } }
 
+@media only screen and (min-width: 992px) {
+  .app-header .govuk-header__logo {
+    width: 65%; } }
+
 /* ==========================================================================
    COMPONENTS/ #ACTION-LINK
    ========================================================================== */
@@ -3991,9 +3992,10 @@ img {
     border: 1px solid #0b0c0c;
     page-break-inside: avoid; } }
 
-.dfeuk-do-dont-list p:first-of-type,
-.dfeuk-do-dont-list ul:first-of-type {
-  margin-top: -20px; }
+@media (min-width: 40.0625em) {
+  .dfeuk-do-dont-list p:first-of-type,
+  .dfeuk-do-dont-list ul:first-of-type {
+    margin-top: -20px; } }
 
 .dfeuk-do-dont-list p + ul:first-of-type {
   margin-top: 20px; }

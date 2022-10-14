@@ -3606,7 +3606,7 @@ img {
   margin-bottom: -10px;
   padding-top: 25px;
   padding-bottom: 15px;
-  border-bottom: 10px solid #912b88; }
+  border-bottom: 10px solid #347ca9; }
 
 .technical-documentation {
   max-width: 50em !important; }
@@ -3794,14 +3794,14 @@ img {
 .dfe-large-panel {
   margin-top: 30px !important;
   padding: 30px;
-  border-left: 10px solid #912b88;
+  border-left: 10px solid #347ca9;
   background-color: #FBE9E7; }
   .dfe-large-panel:hover {
-    background-color: #912b88;
+    background-color: #347ca9;
     color: #ffffff !important; }
     .dfe-large-panel:hover p > a {
       background-color: #ffffff;
-      color: #912b88 !important; }
+      color: #347ca9 !important; }
     .dfe-large-panel:hover .fa-solid {
       color: #ffffff; }
   .dfe-large-panel p {
@@ -3812,13 +3812,13 @@ img {
     text-decoration: none;
     padding: 8px 12px;
     color: #ffffff !important;
-    background-color: #912b88; }
+    background-color: #347ca9; }
   .dfe-large-panel h2 a {
     font-weight: 700;
     font-size: 1em;
     color: #ffffff; }
   .dfe-large-panel .fa-solid {
-    color: #912b88; }
+    color: #347ca9; }
 
 .icon {
   text-align: center; }
@@ -4601,11 +4601,11 @@ ol.dfe-standards-list {
   box-shadow: inset 0 0 0 1px #fd0; }
 
 .dfeuk-border-top--thick {
-  border-top: 5px solid #912b88;
+  border-top: 5px solid #347ca9;
   padding-top: 15px; }
 
 .dfe-section-cta {
-  background-color: #912b88;
+  background-color: #347ca9;
   padding: 15px; }
   .dfe-section-cta a.govuk-button {
     margin-bottom: 0px;
@@ -4655,7 +4655,7 @@ ol.dfe-standards-list {
   text-align: center;
   vertical-align: middle; }
   .dfe-horizontal-card-preview.first {
-    background-color: #912b88; }
+    background-color: #347ca9; }
 
 .dfe-horizontal-card-preview a {
   color: #fff;
@@ -4694,7 +4694,7 @@ ol.dfe-standards-list {
     color: #1b1c1c !important; }
 
 .dfe-hero {
-  background-color: #912b88;
+  background-color: #347ca9;
   padding: 30px 30px 0px 30px;
   color: #fff; }
   @media (max-width: 40.0625em) {
@@ -4722,7 +4722,7 @@ ol.dfe-standards-list {
   margin-bottom: 40px;
   padding: 30px; }
   .dfe-section-grey .standards-icon {
-    color: #912b88; }
+    color: #347ca9; }
   .dfe-section-grey .govuk-caption-m {
     font-size: 16px;
     font-weight: 700;
@@ -4765,7 +4765,7 @@ ol.dfe-standards-list {
       width: 85%; } }
 
 .card {
-  border: 1px solid #912b88;
+  border: 1px solid #347ca9;
   display: flex;
   flex-direction: column;
   position: relative; }

@@ -7,22 +7,21 @@ review_in: 12 months
 
 <%= partial "ga" %>
 
-<a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
-<div class="dfe-section-grey">
+<div class="dfe-hero">
 	<div class="govuk-grid-row">
-		<div class="govuk-grid-column-full">
+		<div class="govuk-grid-column-two-thirds">
+			<a href="/service-standard/" class="govuk-back-link">Back to Service Standard</a>
 			<h1 class="govuk-heading-l"><%=current_page.data.title%></h1>
 			<p>This guidance will help you apply  <a href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs" target="_blank" rel="noopner noreferrer">standard point 1 (opens in new tab)</a>.</p>
-		<div class="bordered-top--dark"></div>
 		</div>
-	</div>
-	<div class="govuk-grid-row ">
 		<div class="govuk-grid-column-full">
-		<span class="govuk-caption-m">Everyone is responsible for meeting the Service Standard. This standard point is most relevant to:</span>
-		<strong class="govuk-tag">User Researchers</strong>
+			<hr class="govuk-section-break govuk-section-break--visible govuk-!-margin-top-5 govuk-!-margin-bottom-3">
+			<p class="govuk-body">Everyone is responsible for meeting the Service Standard. This standard point is most relevant to:</p>
+			<p><strong class="govuk-tag">User Researchers</strong></p>
 		</div>
 	</div>
 </div>
+
 
 
 Take time to understand users' needs and the problem you're trying to solve for them.
@@ -36,9 +35,6 @@ You need to <%= external_link("https://www.gov.uk/service-manual/user-research/s
 Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost effective way.
 
 The most obvious problem is not always the one that needs solving. Test assumptions early and often to reduce the risk of building the wrong thing.
-
-
-
 
 
 ## How to meet this standard at each phase

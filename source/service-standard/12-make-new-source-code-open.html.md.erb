@@ -34,6 +34,8 @@ Open source code can save teams duplicating effort and help them build better se
 
 Coding in the open is a good way to encourage high quality and <a href="https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open" target="_blank" rel="noopner noreferrer">secure coding (opens in new tab)</a> in development teams. 
 
+There may be times when code should not be published in the open. For example, secrets, keys or sensitive information should not be published to public repositories. DfE has guidance on <a href="https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#content" >managing secrets </a> and closed code. 
+
 
 ## How to meet this standard in every phase
 
@@ -41,12 +43,16 @@ You'll be assessed on what you've done to meet this standard at <a href='/servic
 
 #### Things to consider:
 
-- Any code being produced should be open by default. If at any point the code was not publicly available, the team will be asked why, and without good reason, could fail an assessment.
+- Any code being produced should be <a href="https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#managing-secrets">open by default</a>. If at any point the code was not publicly available, the team will be asked why, and without good reason, could fail an assessment. 
 
 ## How to meet this standard in a secure way 
 ### Use GitHub
 
-The recommended tooling for meeting this standard is GitHub, as repositories in GitHub are open by default. There is a DfE organisation set up at <a href="https://github.com/DFE-Digital" target="_blank" rel="noopner noreferrer">DfE-Digital (opens in new tab)</a> which is publicly available. 
+The recommended tooling for meeting this standard is GitHub, as repositories in GitHub are open by default. There is a DfE organisation set up at <a href="https://github.com/DFE-Digital" target="_blank">DfE-Digital </a> which is publicly available. 
+
+If you have some information that must be secret, for example, passwords, you can use <a href="https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#access-secrets-from-github-actions">github secrets</a>. 
+
+ <a href="https://github.com/DFE-Digital/find-a-tuition-partner">Find a Tuition Partner</a> is an example of a GitHub repo in DfE.
 
 Join DfE-Digital to create a repository for a new service by contacting the DfE Slack channel <a href="https://ukgovernmentdfe.slack.com/archives/CMS9V0JQL" target="_blank">#digital-tools-support</a>.
 

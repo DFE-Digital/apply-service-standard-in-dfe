@@ -213,16 +213,19 @@
 <p>Public services are built with public money. So unless there&rsquo;s a good reason not to, the code they&rsquo;re based on, should be made available for other people to reuse and build on.</p>
 <p>Open source code can save teams duplicating effort and help them build better services faster. And publishing source code under an open licence means that you&rsquo;re less likely to get locked into working with a single supplier.</p>
 <p>Coding in the open is a good way to encourage high quality and <a href="https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open" target="_blank" rel="noopner noreferrer">secure coding (opens in new tab)</a> in development teams.</p>
+<p>There may be times when code should not be published in the open. For example, secrets, keys or sensitive information should not be published to public repositories. DfE has guidance on <a href="https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#content" >managing secrets </a> and closed code.</p>
 <h2 id="how-to-meet-this-standard-in-every-phase">How to meet this standard in every phase</h2>
 <p>You&rsquo;ll be assessed on what you&rsquo;ve done to meet this standard at <a href='/service-assessments/'>service assessments</a>. However, even if the service you are working on is not being assessed, it&rsquo;s good practice to consider how you&rsquo;ll meet this standard point.</p>
 <h4 id="things-to-consider">Things to consider:</h4>
 
 <ul>
-<li>Any code being produced should be open by default. If at any point the code was not publicly available, the team will be asked why, and without good reason, could fail an assessment.</li>
+<li>Any code being produced should be <a href="https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#managing-secrets">open by default</a>. If at any point the code was not publicly available, the team will be asked why, and without good reason, could fail an assessment. </li>
 </ul>
 <h2 id="how-to-meet-this-standard-in-a-secure-way">How to meet this standard in a secure way</h2>
 <h3 id="use-github">Use GitHub</h3>
-<p>The recommended tooling for meeting this standard is GitHub, as repositories in GitHub are open by default. There is a DfE organisation set up at <a href="https://github.com/DFE-Digital" target="_blank" rel="noopner noreferrer">DfE-Digital (opens in new tab)</a> which is publicly available.</p>
+<p>The recommended tooling for meeting this standard is GitHub, as repositories in GitHub are open by default. There is a DfE organisation set up at <a href="https://github.com/DFE-Digital" target="_blank">DfE-Digital </a> which is publicly available.</p>
+<p>If you have some information that must be secret, for example, passwords, you can use <a href="https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#access-secrets-from-github-actions">github secrets</a>.</p>
+<p><a href="https://github.com/DFE-Digital/find-a-tuition-partner">Find a Tuition Partner</a> is an example of a GitHub repo in DfE.</p>
 <p>Join DfE-Digital to create a repository for a new service by contacting the DfE Slack channel <a href="https://ukgovernmentdfe.slack.com/archives/CMS9V0JQL" target="_blank">#digital-tools-support</a>.</p>
 <h2 id="profession-specific-guidance">Profession specific guidance</h2>
 <p>Each DDaT profession in DfE has their own community and guidance.</p>

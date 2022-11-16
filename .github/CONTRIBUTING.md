@@ -8,13 +8,13 @@ We want your input! We want to make contributing to this manual as easy and tran
 - Proposing new content
 - Becoming a maintainer
 
-## We Develop with Github
+## We Develop with GitHub
 
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
-## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+## We Use [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow), So All Code Changes Happen Through Pull Requests
 
-Pull requests are the best way to propose changes to the code (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
+Pull requests are the best way to propose changes to the code (we use [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)). We actively welcome your pull requests:
 
 Clone or Fork the repo (Fork it if you don't have write access)
 

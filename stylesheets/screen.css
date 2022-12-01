@@ -4764,7 +4764,7 @@ ol.dfe-standards-list {
   .cards.cards-single > ul {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); }
     .cards.cards-single > ul > li {
-      width: 60%; } }
+      width: 100%; } }
 
 .card {
   border: 1px solid #347ca9;

@@ -45,3 +45,13 @@ github_repo: DFE-Digital/apply-service-standard-in-dfe
 show_review_banner: true
 show_expiry: false
 
+redirects:
+  accessibility/index.html: accessibility/moved.html
+  accessibility/accessibility-audit.html: accessibility/moved.html
+  accessibility/accessibility-statement.html: accessibility/moved.html
+  accessibility/digital-inclusion.html: accessibility/moved.html
+  accessibility/laws-and-standards.html: accessibility/moved.html
+  accessibility/overview.html: accessibility/moved.html
+  accessibility/roles.html: accessibility/moved.html
+  accessibility/tools.html: accessibility/moved.html
+  accessibility/training.html: accessibility/moved.html
